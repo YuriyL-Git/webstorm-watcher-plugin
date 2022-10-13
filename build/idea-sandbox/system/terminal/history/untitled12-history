@@ -1,0 +1,1000 @@
+rdpm
+rdp
+rdpm
+rdp
+ cd /home/admin
+ clear
+ cd /
+ cd /home/admin
+ cd /mnt/1A100DE4100DC829/Music
+ cd /home/admin
+ cd /home/admin/Temp
+ cd /home/admin/Temp/YoutubeSplitter
+python3 youtube_to_mp3_splitter.py
+sudo gedit /lib/systemd/system/ramdisk-sync.service
+h
+python3 /home/admin/Temp/YoutubeSplitter/youtube_to_mp3_splitter.py
+rdpm
+sudo snap install phpstorm --classic
+sudo snap update phpstorm --classic
+sudo snap refresh phpstorm
+snap saved
+sudo snap remove phpstorm && snap install phpstorm
+sudo snap remove phpstorm --classic && snap install phpstorm -classic
+sudo snap remove phpstorm && snap install phpstorm -classic
+sudo snap remove phpstorm && snap install phpstorm --classic
+snap saved
+snap restore 6
+rdpm
+h
+sudo gedit /etc/bash.bashrc
+rdpm
+rdp
+h
+sudo gedit /etc/bash.bashrc
+rdpm
+rdp
+rdpm
+journalctl --disk-usage
+sudo journalctl --vacuum-size=500M
+git pull
+git switch master
+git pull
+h
+rdp
+rdpь
+rdpm
+sudo journalctl --vacuum-size=500M
+sudo apt remove teams
+snap remove anydo
+h
+sudo gedit /etc/fstab
+sudo apt remove anydo
+dpkg --list
+sudo nano /etc/fstab
+sudo gedit /lib/systemd/system/ramdisk-sync.service
+git pull
+git status
+git log
+git switch master
+git pull
+sudo apt-get install playonlinux
+sudo apt -y install wine
+snap remove gitkraken
+sudo apt --purge remove gitkraken
+h
+rdp
+sudo snap install webstorm
+sudo snap install webstorm --classic
+h
+sudo gedit /etc/hosts
+ns
+sudo chsh -s /bin/bash ${admin}
+ns
+sudo chsh -s /bin/bash $(whoami)
+ns
+npm run start
+ns
+sudo apt-get install bash
+sudo apt-get autoremove
+ns
+h
+sudo snap remove phpstorm
+cd /home/admin/Libraries_and_Tools/Tasker/TaskerTools/
+ns
+sudo apt-get --purge autoremove billard-gl
+sudo apt-get install --fix-broken
+cd /var/cache/apt/archives
+ls -l bash_4.*.deb
+ls
+locate billards
+sudo apt install mlocate
+sudo apt-get install --reinstall bash
+sudo apt-get --reinstall install bash
+ns
+h
+sudo gedit /etc/bash.bashrc
+rdpm
+rdp
+квьз
+rdpm
+ns
+rdp
+rdpm
+rdp
+rdpm
+ns
+npm install robotjs
+sudo npm install robotjs
+ns
+git status
+git add .
+git commit -m 'add choosing task cli'
+git push
+node dist/bin/gitcracken.js patcher
+sudo node dist/bin/gitcracken.js patcher
+sudo gedit /etc/hosts
+h
+journalctl --vacuum-time=10d
+sudo journalctl --vacuum-time=10d
+nautilus ~/.config/google-chrome/Default 
+sudo apt-get remove teamviewer
+sudo apt-get clean
+sudo apt-get autoclean
+sudo apt-get autoremove
+rdp
+sudo snap install telegram-desktop
+sudo doublecmd
+rdpm
+sudo apt-get clean
+sudo apt-get autoclean
+sudo apt-get autoremove
+sudo apt autoremove
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo mkdir -p /etc/apt/backup
+sudo mv /etc/apt/sources.list.d/* /etc/apt/backup
+sudo apt-add-repository -yn ppa:system76-dev/stable
+sudo apt-add-repository -yn ppa:system76/pop
+sudo sed -i 's/old-releases/us.archive/g' /etc/apt/sources.list
+sudo sed -Ei 's/cosmic|eoan|disco|eoan/focal/g' /etc/apt/sources.list /etc/apt/sources.list.d/*.list
+sudo apt update
+sudo gedit /etc/apt/sources.list
+cp  /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo cp  /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo gedit
+sudo gedit /etc/apt/sources.lis
+sudo gedit /etc/apt/sources.list
+sudo apt update
+sudo gedit /etc/apt/sources.list
+sudo apt update
+sudo gedit /etc/apt/sources.list
+sudo apt update
+sudo apt full-upgrade
+sudo dpkg --configure -a
+sudo apt-get remove --auto-remove localepurge
+sudo apt full-upgrade
+pop-upgrade recovery upgrade from-release
+pop-upgrade release upgrade
+sudo apt clean
+sudo apt update -m
+sudo apt update
+sudo apt update -m
+sudo apt clean
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+curl https://repogen.simplylinux.ch/txt//sources_da39a3ee5e6b4b0d3255bfef95601890afd80709.txt | sudo tee /etc/apt/sources.list
+suso curl https://repogen.simplylinux.ch/txt//sources_da39a3ee5e6b4b0d3255bfef95601890afd80709.txt | sudo tee /etc/apt/sources.list
+sudo curl https://repogen.simplylinux.ch/txt//sources_da39a3ee5e6b4b0d3255bfef95601890afd80709.txt | sudo tee /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo gedit /etc/apt/sources.list.d
+sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list.d/system.sources
+cp /etc/apt/sources.list.d/system.sources   /etc/apt/sources.list.d/system.sources
+cp /etc/apt/sources.list.d/system.sources   /etc/apt/sources.list.d/system.sources.bak
+sudo cp /etc/apt/sources.list.d/system.sources   /etc/apt/sources.list.d/system.sources.bak
+sudo gedit /etc/apt/sources.list.d/system.sources
+sudo mkdir -p /etc/apt/backup
+sudo mv /etc/apt/sources.list.d/* /etc/apt/backup
+sudo apt-add-repository -yn ppa:system76-dev/stable
+sudo apt-add-repository -yn ppa:system76/pop
+sudo sed -i 's/old-releases/us.archive/g' /etc/apt/sources.list
+sudo sed -Ei 's/cosmic|eoan|disco|eoan/focal/g' /etc/apt/sources.list /etc/apt/sources.list.d/*.list
+sudo apt update
+sudo apt install dpkg apt
+sudo apt full-upgrade | tee ~/upgrade.log
+sudo apt autoremove
+sudo apt update
+sudo apt install dpkg apt
+sudo apt full-upgrade | tee ~/upgrade.log
+sudo apt full-upgrade
+pop-upgrade release upgrade
+do-release-upgrade
+sudo apt update
+do-release-upgrade
+sudo gedit /etc/apt/sources.list.d/system.sources
+do-release-upgrade
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo gedit /etc/apt/sources.list.d/system.sources
+do-release-upgrade
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo gedit /etc/apt/sources.list.d/system.sources
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo gedit /etc/apt/sources.list.d/system.sources
+sudo gedit /etc/apt/sources.list~
+sudo apt update -m
+sudo apt clean
+sudo apt update -m
+sudo apt update -m --allow-unauthenticated
+sudo apt-get update --allow-unauthenticated
+sudo apt update -m --allow-insecure-repositories
+sudo dpkg --configure -a
+sudo apt install -f
+sudo apt full-upgrade
+sudo apt install pop-desktop
+sudo rm sources.list~
+sudo apt update
+sudo apt install dpkg apt
+sudo apt full-upgrade | tee ~/upgrade.log
+sudo apt full-upgrade
+sudo apt update
+sudo apt autoremove --purge
+sudo apt clean
+sudo apt update && sudo apt upgrade
+cat sources.list
+sudo apt-get update --allow-unauthenticated
+sudo apt clean
+sudo apt update -m
+sudp apt update pop-upgrade
+sudo apt update pop-upgrade
+sudo apt-update pop-upgrade
+sudo apt-get install --only-upgrade pop-upgrade
+journalctl -u pop-upgrade
+sudo journalctl -u pop-upgrade
+sudo gedit /etc/hosts
+sudo apt update -m
+h
+sudo doublecmd
+sudo apt update -m
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo dpkg --configure -a
+sudo apt install -f
+sudo apt full-upgrade
+sudo apt install pop-desktop
+sudo apt update -m
+sudo apt-get update
+sudo apt update -m
+pop-upgrade
+pop-upgrade cances
+pop-upgrade cancel
+pop-upgrade
+pop-upgrade status
+pop-upgrade daemon
+sudo pop-upgrade daemon
+sudo apt clean
+sudo apt autoclean
+sudo apt update
+sudo add-apt-repository --remove ppa:webupd8team/ppa
+sudo apt-add-repository -r ppa:gnome3-team/gnome3
+sudo wget -O- http://ddebs.ubuntu.com/dbgsym-release-key.asc | sudo apt-key add -
+sudo apt update -m
+sudo apt-get update -m --allow-unauthenticated
+sudo apt install pop-desktop
+pop-upgrade release upgrade systemd
+pop-upgrade release upgrade
+h
+sudo doublecmd
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo rm /etc/apt/sources.list.d/pop-os-ppa.sources
+systemctl restart pop-upgrad
+sudo apt update
+sudo apt full-upgrade
+pop-upgrade release upgrade
+sudo rm /etc/apt/sources.list.d/pop-os-ppa.sources
+systemctl restart pop-upgrade
+pop-upgrade release upgrade
+sudo sed -i 's/us.archive/old-releases/g' /etc/apt/sources.list
+sudo apt update -m
+sudo dd bs=4M if=pop-os_21.10_amd64_nvidia_3.iso of=/dev/sdb conv=fdatasync status=progress
+sudo apt-get install usb-creator-gtk
+sudo apt install usb-creator-gtk
+sudo dd bs=4M if=pop-os_21.10_amd64_nvidia_3.iso of=/dev/sdd conv=fdatasync status=progress
+lsblk
+npm i clean-webpack-plugin
+ns
+git status
+git add .
+git commit -m 'add post builder'
+git push
+ті
+ns
+sudo killall -9 node
+ns
+h
+sudo gedit /etc/bash.bashrc
+rdpm
+rdpm
+ns
+rdp
+rdpm
+rdp
+sudo restart
+sudo reboot
+npm i inquirer
+npm init
+npm i inquirer
+ns
+node index.js
+ns
+cd ..
+ls
+cd Libraries_and_Tools
+cd Tasker
+cd TaskerTools
+ns
+npm start node
+npm run restart
+ns
+npm run restart
+npm run node
+npm run restart
+npm run node
+ns
+npm run restart
+npm run node
+ns
+npm run restart
+npm run node
+npm run restart
+npm run startnode
+ns
+npm run startnode
+ns
+npm run startnode
+ns
+npm run startnode
+ns
+npm run startnode
+ns
+rdpm
+rdp
+sudo reboot
+git status
+git add .
+git branch
+git commit -m 'add ui select task menu'
+git push
+rdpm
+rdp
+rdpm
+sudo apt-get update xfreerdp
+sudo apt-get update xfreerdp2
+sudo apt-get update 
+rdpm
+h
+sudo gedit /etc/bash.bashrc
+rdpm
+sudo snap install remmina
+sudo snap install remmina  --edge
+sudo snap refresh remmina --channel=edge
+rdpm
+квз
+rdp
+cd /home/admin
+sudo npm i -g react-native-cli
+sudo npm install -g npm@8.3.0
+react-native init ShoppingList
+sudo apt install nodejs
+node -v
+sudo snap install node --classic --channel=edge
+node -v
+sudo snap refresh node --channel=16
+node -v
+react-native init ShoppingList
+cd ShoppingList
+code .
+npm i react-native-vector-icons
+sudo npm i react-native-vector-icons
+react-native link react-native-vector-icons
+sudo npm i uuidv4
+react-native run-android
+sudo npm install -g expo-cli
+sudo apt-get install openjdk-7-jre
+sudo snap install openjdk
+sudo gedit $HOME/.bashrc
+sudo gedit $HOME/.bash_profile
+source $HOME/.bashrc
+brew update
+sudo snap install android-studio --classic
+sudo doublecm
+h
+sudo doublecmd
+sudo gedit ~/.profile
+. ~/.profile
+sudo gedit ~/.bashrc
+rdpm
+rdp
+rdpm
+cd /opt/
+sudo chmod -R 755 ./
+rdmp
+rdpm
+git clone https://github.com/kentcdodds/react-fundamentals.git
+cd react-fundamentals
+node setup
+rdp
+h
+sudo gedit /etc/bash.bashrc
+rdp
+rpd
+rdm
+rdp
+квз
+rdp
+rdpm
+rdp
+rdpm
+rdp
+rdpm
+rdp
+gh repo clone opengs/uashield
+rdp
+h
+sudo gedit /etc/bash.bashrc
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+./adb shell sh /sdcard/Android/data/flar2.homebutton/keyevent.sh
+sudo ./adb shell sh /sdcard/Android/data/flar2.homebutton/keyevent.sh
+./adb shell pm grant flar2.homebutton android.permission.WRITE_SECURE_SETTINGS
+sudo ./adb shell pm grant flar2.homebutton android.permission.WRITE_SECURE_SETTINGS
+sudo ./adb shell sh /sdcard/Android/data/flar2.homebutton/keyevent.sh
+./adb shell pm grant flar2.homebutton android.permission.WRITE_SECURE_SETTINGS
+sudo ./adb shell pm grant flar2.homebutton android.permission.WRITE_SECURE_SETTINGS
+rd
+rs
+rs
+rd
+rs
+rd
+sudo apt install brave-browser
+rd
+rs
+rd
+rd
+rs
+rd
+rs
+rd
+кв
+rd
+RD
+rd
+rs
+h
+sudo gedit /etc/bash.bashrc
+reboot
+rs
+rs
+rd
+rs
+rd
+кв
+rd
+rd
+rs
+rd
+rs
+h
+h
+sudo gedit /etc/bash.bashrc
+h
+sudo gedit /etc/bash.bashrc
+rd
+rs
+rs
+rs
+rd
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+кв
+rd
+rs
+rd
+rs
+rd
+RD
+rd
+rs
+rd
+rs
+кв
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+кв
+rd
+rs
+rd
+rs
+s
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rdp
+rd
+rs
+rd
+rs
+rd
+кв
+rd
+ts
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+р
+h
+sudo gedit /etc/bash.bashrc
+rs
+rd
+rs
+rd
+ds
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+і
+rs
+rd
+rs
+ns
+bd
+nd
+rd
+авіанррнрнрнкркрккьльтор рртрт                                    RJ118867108ZAтек
+ада�адащдщащащащдабабоіо                      9рооощ0 ж х 
+є
+rd
+rd
+ds
+rs
+rd
+кв
+rd
+rs
+rd
+rs
+rd
+rs
+rd
+rs
+yarn
+кв
+rd
+yarn codegen
+rd
+cd ..
+yarn codegen
+cd ..
+yarn codegen
+yarn codegen --watch
+yarn generate --watch
+yarn codegen --watch
+yarn codegen
+rd
+rd
+rd
+rs
+rs
+rd
+кв
+rd
+git clone git@github.com:mike-north/full-stack-ts
+cd full-stack-typescript
+yarn
+git clone git@github.com:mike-north/full-stack-ts
+dir
+cd full-stack-typescript
+cd full-stack-ts
+yarn
+yarn dev
+yarn start
+sudo yarn global remove create-react-app
+sudo npm uninstall -g create-react-app
+npm install -g npm@8.13.1
+sudo npm install -g npm@8.13.1
+npx create-react-app .
+npx create-react-app@latest . --use-npm
+npx create-react-app .
+npm uninstall -g create-react-app
+npx create-react-app .
+npm create-react-app .
+npx create-react-app .
+npx create-react-app client
+npx create-react-app my-app
+npm init react-app .
+npx clear-npx-cache
+y
+npx create-react-app .
+npx create-react-app@5.0.0 .
+npx create-react-app@5.0.1 .
+npx create-react-app@latest .
+npm uninstall -g create-react-app
+npm cache clean --force
+npm cache verify
+npm i
+npm init
+npm i apollo-server graphql 
+npm i nodemon
+ns
+npm i prettier
+ns
+reboot
+node --v
+node -v
+webstorm
+git clone git clone git@bitbucket.org:AmericanPharaoh/sv-hero-dashboard.git
+git clone git@bitbucket.org:AmericanPharaoh/sv-hero-dashboard.git
+cat ~/.ssh/id_rsa.pub
+ls ~/.ssh/id_*
+sudo gedit /home/admin/.ssh/id_ed25519
+sudo gedit /home/admin/.ssh/id_ed25519.pub
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+git config --global user.email "y.lipchey@do-it.co"
+h
+sudo gedit /etc/bash.bashrc
+rd
+yarn dev
+rs
+git clone git@bitbucket.org:AmericanPharaoh/sv-hero-dashboard.git
+yarn start
+yarn start
+yarn dev
+ngrok config add-authtoken 2ELDxdUiYKmhhuOZwixhOuEj2ek_3jQ1ESTYdPMpn2bMnDSCA
+yarn start
+ngrok
+sudo snap install ngrok
+ngrok 8080
+yarn install
+git clone git@bitbucket.org:AmericanPharaoh/sv-hero-web.git
+yarn install
+ngrok http 8080
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+git add .
+git commit -m 'm'
+git push
+git add .
+git commit -m 't'
+git push
+curl -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=30xcX5UDTm
+clear
+curl -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=Xa4vVh8czz
+curl -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=30xcX5UDTm
+curl -A -v  Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=30xcX5UDTm
+curl -v -A  Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=30xcX5UDTm
+curl -v -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=Xa4vVh8czz
+curl -v -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=Ncm0TDJcjz
+curl -v -A Twitterbothttps://59e9-91-247-39-222.eu.ngrok.io/s?id=Ncm0TDJcjz
+curl -v -A Twitterbot https://59e9-91-247-39-222.eu.ngrok.io/s?id=Ncm0TDJcjz
+curl -v -A Twitterbot  https://59e9-91-247-39-222.eu.ngrok.io/s?id=u9YwMAJAKC
+curl -v -A Twitterbot  https://59e9-91-247-39-222.eu.ngrok.io/s?id=ecOXHQmp5Q
+curl -v -A Twitterbot  https://59e9-91-247-39-222.eu.ngrok.io/s?id=c3jifnT3wx
+ngrok http 8080
+rs
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+rd
+rs
+rd
+rd
+rs
+rd
+ngrok 3000
+ngrok http  3000
+rs
+hgrok http 3000
+ngrok http 3000
+yarn add react-input-verification-code
+ngrok http 8080
+git pull origin master
+yarn install
+git reflog
+rs
+git reflog
+git reset --hard 6a50f6
+rs
+yarn add react-detect-click-outside
+git clone git@github.com:Radency/Fyrst.git
+ssh-keygen -t rsa
+ls -al ~/.ssh
+rs
+кі
+rs
+npx create-react-app .
+npm install -g npm@8.19.2
+sudo npm install -g npm@8.19.2
+npx create-react-app .
+npx create-react-app my-app
+yarn global remove create-react-app
+sudo yarn global remove create-react-app
+npm uninstall -g create-react-app
+npx create-react-app my-app
+npm uninstall -g create-react-app
+npx create-react-app my-app
+npm uninstall -g create-react-app
+npm install -g create-react-app
+sudo npm install -g create-react-app
+npx create-react-app .
+npm install -g create-react-app@5.0.1
+sudo npm install -g create-react-app@5.0.0
+npx create-react-app .
+npm uninstall -g create-react-app
+npx clear-npx-cache
+npx create-react-app my-app
+npm install -g create-react-app@5.0.0
+sudo npm install -g create-react-app@5.0.0
+npx create-react-app@5.0.1 .
+yarn global remove create-react-app
+sudo yarn global remove create-react-app
+yarn create react-app .
+yarn add @mui/material @emotion/react @emotion/styled
+rs
+sudo gedit /etc/hosts
+yarn start
+yarn add @fontsource/roboto
+yarn add @mui/icons-material
+yarn add prettier
+yarn create redwood-app --ts ./redwoodblog
+yarn install
+yarn
+sudo yarn create redwood-app --ts ./redwoodblog
+yarn config set ignore-engines true
+sudo yarn create redwood-app --ts ./redwoodblog
+yarn install --ignore-engines
+sudo yarn create redwood-app --ts ./redwoodblog
+yarn create redwood-app --ts ./redwoodblog
+sudo yarn create redwood-app --ts ./redwoodblog
+yarn dev
+yarn redwood dev
+node --version
+yarn --version
+yarn install
+yarn dev
+git clone git@github.com:redwoodjs/redwood.git
+git init
+git add .
+git commit -m 'First commit'
+yarn redwood generate page home /
+yasyarn add @mui/material @emotion/react @emotion/styled
+yarn add @mui/material @emotion/react @emotion/styled
+yarn rw setup generator page
+git init
+git add .
+git init
+git add .
+git status
+git init
+git add .
+git status
+git commit 'init'
+git commit -m 'init'
+yarn install
+yarn redwood dev
+npm run build
+yarn build:watch
+yarn dev
+yarn rw renerate component TestComponent
+yarn rw generate component TestComponent
+node create-redwood-app.js
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+eval "$(ssh-agent -s)"
+> Agent pid 59566
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed2520
+ssh-add ~/.ssh/id_ed25520
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+sudo gedit ~/.ssh/id_ed25519.pub
+git push
+git status
+git add .
+git commit -m 'update component generation with mui'
+git remote add origin git@github.com:YuriyL-Git/redwoodjs.git
+git branch -M main
+git push -u origin main
+git remote set-url origin https://github.com/YuriyL-Git/redwoodjs
+git push -u origin main
+git remote set-url origin https://github.com/YuriyL-Git/redwoodjs
+git push -u origin main
+git remote set-url origin git@github.com:YuriyL-Git/redwoodjs.git
+git branch -M main
+git push -u origin main
+git push
+git remote set-url origin git@github.com:YuriyL-Git/redwoodjs.git
+git push -u origin main
+git remote add origin git@github.com:YuriyL-Git/redwoodjs.git
+git branch -M main
+git push -u origin main
+git init
+git add .
+git commit 'init repository'
+git commit -m 'init repository'
+git remote add origin git@github.com:YuriyL-Git/redwoodjs.git
+git branch -M main
+git push -u origin main
+yarn build
+ssh-add -l -E sha256
+sudo gedit /home/admin/.ssh/id_rsa
+git status
+yarn build
+yarn install
+yarn build
+yarn rw generate component Test@
+arn rw generate component MyComponent
+yarn rw generate component MyComponent
+yarn rw generate component MyComponent2
+cd web
+yarn add @mui/material @emotion/react @emotion/styled
+yarn add @mui/styles
+git clone https://github.com/nodegui/nodegui-starter
+sudo apt-get install qt5-default
+npm install
+npm start
+rd
+git clone https://github.com/nodegui/react-nodegui-starter
+cd react-nodegui-starter
+yarn install
+npm install
+rd
+rs
+git status
+rd
+git clone git@github.com:YuriyL-Git/redwood-gui-generator.git
+yarn install
+yarn start
+cd /home/admin
+rd
+rs
+rd
+ms
+h
+sudo gedit /etc/bash.bashrc 
+ms
+\
+ms
+rm
+ms
+ssh -X Mac@192.168.88.105
+sudo systemctl enable xrdp
+sudo ufw allow 3389/tcp
+ms
+rs
+cat /proc/cpuinfo  | grep 'name'| uniq
+ngrok
+ngrok http 3000
+rd
+rs
+rd
+yarn dev
+rd
+кв
+rd
+ngrok http 8080
+rs
+ngrok http 3000
+ls
+rs
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+ssh-keygen -t ed25520 -C "yuriy_lipchey@outlook.com"
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25520
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+ssh-add ~/.ssh/id_ed25520
+git remote add origin git@github.com:yuriy-lipchey/dashboard.git
+git branch -M main
+git push -u origin main
+rd
+git init
+git add .
+git commit -m 'init project'
+git clone git@github.com:YuriyL-Git/electron-react-template.git
+yarn install
+yarn start
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25521
+git clone git clone git@bitbucket.org:AmericanPharaoh/sv-hero-dashboard.git
+git clone git@bitbucket.org:AmericanPharaoh/sv-hero-dashboard.git
+rd
+sudo snap install telegram-desktop
+rd
+rs
+git pull
+git stash
+git pull
+yarn start
+sudo snap install intellij-idea-community --classic
+rd
+rs
+openssl genpkey  -aes-256-cbc  -algorithm RSA  -out private.pem  -pkeyopt rsa_keygen_bits:4096
+openssl req  -key private.pem  -new  -x509  -days 365  -out chain.crt
+java -jar marketplace-zip-signer-cli.jar sign  -in "unsigned.zip"  -out "signed.zip"  -cert-file "/path/to/chain.crt"  -key-file "/path/to/private.pem"\
+git clone git@github.com:JetBrains/intellij-sdk-code-samples.git
+git status
+git clone git@github.com:JetBrains/intellij-platform-plugin-template.git
+git clone git@github.com:JetBrains/intellij-platform-plugin-template.git
+кы
+rs
+git clone git@github.com:nadavfima/jetbrains-10bis-plugin.git
+ngrok http 8080
+ngrok http 8080
+git clone git@github.com:php-perfect/ddev-intellij-plugin.git
+git clone git@github.com:dmolin/ActiveEditorPlugin.git
+git clone git@github.com:NitsanAmit/webstorm-locstring-plugin.git
+rd
+rs
+rd
+rs
+git init
+git add .
+git commit -m 'init project'
+git remote add origin git@github.com:YuriyL-Git/webstorm-watcher-plugin.git
+git branch -M main
+git push -u origin main
+git push
+git push --set-upstream origin main
+ssh -vT git@github.com
+git push
+git push --set-upstream origin main
+ssh -vT git@github.com
+git push
+git push --set-upstream origin main
+ssh-keygen -t ed25519 -C "yuriy_lipchey@outlook.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25522
+git init
+ssh-keygen -t ed25519 -C "xaosmmm@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+git init
+git add .
+git commit -m 'init project'
+git status
+git remote add origin git@github.com:YuriyL-Git/webstorm-watcher-plugin.git
+git branch -M main
+git push -u origin main
+ssh -vT git@github.com
+git push -u origin main
+ssh -vT git@gitlab.com

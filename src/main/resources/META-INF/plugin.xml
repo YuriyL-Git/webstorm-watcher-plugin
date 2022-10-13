@@ -59,6 +59,11 @@
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
+    <notificationGroup id="Custom Notification Group"
+                       displayType="BALLOON"/>
+  </extensions>
+
+  <extensions defaultExtensionNs="com.intellij">
     <typedHandler implementation="org.intellij.sdk.editor.MyTypedHandler"/>
   </extensions>
 

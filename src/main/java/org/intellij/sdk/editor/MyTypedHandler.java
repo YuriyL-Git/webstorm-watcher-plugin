@@ -3,9 +3,14 @@
 package org.intellij.sdk.editor;
 
 import com.intellij.codeInsight.editorActions.TypedHandlerDelegate;
+import com.intellij.notification.Notification;
+import com.intellij.notification.NotificationType;
+import com.intellij.notification.Notifications;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.Editor;
+import com.intellij.openapi.editor.event.EditorMouseEvent;
+import com.intellij.openapi.editor.event.EditorMouseListener;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiFile;
 import org.jetbrains.annotations.NotNull;
@@ -16,17 +21,27 @@ import org.jetbrains.annotations.NotNull;
  * Document changes are made in the context of a write action.
  */
 class MyTypedHandler extends TypedHandlerDelegate {
+  public void mousePressed(EditorMouseEvent e) {
+  }
 
   @NotNull
   @Override
   public Result charTyped(char c, @NotNull Project project, @NotNull Editor editor, @NotNull PsiFile file) {
     // Get the document and project
     final Document document = editor.getDocument();
+    editor.addEditorMouseListener(new CustomListener());
     // Construct the runnable to substitute the string at offset 0 in the document
     Runnable runnable = () -> document.insertString(0, "editor_basics\n");
     // Make the document change in the context of a write action.
     WriteCommandAction.runWriteCommandAction(project, runnable);
     return Result.STOP;
   }
+}
 
+class CustomListener implements EditorMouseListener {
+  @NotNull
+  @Override
+  public void mouseClicked(EditorMouseEvent event) {
+    Notifications.Bus.notify(new Notification("Custom Notification Group","Clicked", NotificationType.INFORMATION));
+  }
 }

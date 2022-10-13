@@ -1,0 +1,43 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1665594232212" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1665685317577" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="4" l="1665687765276" />
+    </e>
+    <e n="EditorCut">
+      <i c="3" l="1665593523121" />
+    </e>
+    <e n="Kotlin.NewFile">
+      <i c="1" l="1665593499779" />
+    </e>
+    <e n="NewFile">
+      <i c="1" l="1665687005030" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1665685290552" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1665688651568" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="2" l="1665687080471" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1665593485788" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1665679750711" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+      <i c="1" l="1665594292169" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="3" l="1665594294522" />
+    </e>
+  </component>
+</application>
