@@ -18,6 +18,7 @@ import com.intellij.openapi.fileEditor.FileEditorManagerAdapter;
 import com.intellij.openapi.fileEditor.FileEditorManagerEvent;
 import com.intellij.openapi.fileEditor.FileEditorManagerListener;
 import com.intellij.openapi.project.Project;
+import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.openapi.vfs.VirtualFileManager;
 import com.intellij.openapi.vfs.newvfs.BulkFileListener;
@@ -87,6 +88,7 @@ class CustomListener implements EditorMouseListener {
   @NotNull
   @Override
   public void mouseClicked(EditorMouseEvent event) {
+    Project project = ProjectManager.getInstance().getOpenProjects()[0];
     Notifications.Bus.notify(new Notification("Custom Notification Group","Clicked", NotificationType.INFORMATION));
   }
 }

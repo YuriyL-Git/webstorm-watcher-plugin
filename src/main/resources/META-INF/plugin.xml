@@ -32,6 +32,12 @@
   <!-- Text to display as company information on Preferences/Settings | Plugin page -->
   <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
 
+
+  <applicationListeners>
+    <listener class="org.intellij.sdk.editor.ProjectOpenCloseListener"
+              topic="com.intellij.openapi.project.ProjectManagerListener"/>
+  </applicationListeners>
+
   <actions>
     <action id="EditorBasics.EditorIllustrationAction"
             class="org.intellij.sdk.editor.EditorIllustrationAction"
