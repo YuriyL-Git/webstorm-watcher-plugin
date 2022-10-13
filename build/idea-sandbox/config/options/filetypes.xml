@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="test" type="AUTO_DETECTED" />
+      <mapping pattern="test5" type="AUTO_DETECTED" />
       <mapping pattern="test2" type="AUTO_DETECTED" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
