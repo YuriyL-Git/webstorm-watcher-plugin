@@ -23,22 +23,9 @@
     <listener class="org.intellij.sdk.editor.ProjectOpenCloseListener" topic="com.intellij.openapi.project.ProjectManagerListener" />
   </applicationListeners>
   <actions>
-    <action id="EditorBasics.EditorIllustrationAction" class="org.intellij.sdk.editor.EditorIllustrationAction" text="Editor Replace Text" description="Replaces selected text with 'Replacement'." icon="SdkIcons.Sdk_default_icon">
-      <add-to-group group-id="EditorPopupMenu" anchor="first" />
-    </action>
-    <action id="EditorBasics.EditorHandlerIllustration" class="org.intellij.sdk.editor.EditorHandlerIllustration" text="Editor Add Caret" description="Adds a second caret below the existing one." icon="SdkIcons.Sdk_default_icon">
-      <add-to-group group-id="EditorPopupMenu" anchor="first" />
-    </action>
     <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
-    <action id="EditorBasics.LogicalPositionIllustration" class="org.intellij.sdk.editor.EditorAreaIllustration" text="Caret Position" description="Reports information about the caret position." icon="SdkIcons.Sdk_default_icon">
-      <keyboard-shortcut keymap="$default" first-keystroke="control alt G" />
-      <add-to-group group-id="EditorPopupMenu" anchor="first" />
-    </action>
   </actions>
   <extensions defaultExtensionNs="com.intellij">
     <notificationGroup id="Custom Notification Group" displayType="BALLOON" />
-  </extensions>
-  <extensions defaultExtensionNs="com.intellij">
-    <typedHandler implementation="org.intellij.sdk.editor.MyTypedHandler" />
   </extensions>
 </idea-plugin>

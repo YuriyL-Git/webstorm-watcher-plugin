@@ -1,8 +1,5 @@
 package org.intellij.sdk.editor;
 
-import com.intellij.notification.Notification;
-import com.intellij.notification.NotificationType;
-import com.intellij.notification.Notifications;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.event.EditorMouseEvent;
 import com.intellij.openapi.editor.event.EditorMouseListener;
@@ -35,21 +32,21 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
             @Override
             public void selectionChanged(@NotNull FileEditorManagerEvent event) {
                 Editor editor = event.getManager().getSelectedTextEditor();
-                editor.addEditorMouseListener(new MyCustomListener());
+                editor.addEditorMouseListener(new MouseListener());
 
             }
         });
     }
 }
 
-class MyCustomListener implements EditorMouseListener {
+class MouseListener implements EditorMouseListener {
     @NotNull
     @Override
     public void mouseClicked(EditorMouseEvent event) {
         Project project = ProjectManager.getInstance().getOpenProjects()[0];
         FileEditorManager manager = FileEditorManager.getInstance(project);
         VirtualFile file = manager.getSelectedFiles()[0];
-
-        Notifications.Bus.notify(new Notification("Custom Notification Group","Clicked " + file.getName(), NotificationType.INFORMATION));
+        MainHandler handler = new MainHandler();
+        handler.start(event.getEditor(), file);
     }
 }

@@ -3205,7 +3205,7 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-adapters",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "androidx.databinding.adapters.Converters",
@@ -3215,7 +3215,7 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-common",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "androidx.databinding.Bindable",
@@ -3239,7 +3239,7 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-compiler",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "android.databinding.annotationprocessor.BindableBag",
@@ -3331,7 +3331,7 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-compiler-common",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "android.databinding.parser.BindingExpressionBaseListener",
@@ -3398,14 +3398,14 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-ktx",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.databinding",
       "artifactId": "databinding-runtime",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "androidx.databinding.BaseObservable",
@@ -3462,7 +3462,7 @@
     {
       "groupId": "androidx.databinding",
       "artifactId": "viewbinding",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": [
         "androidx.viewbinding.ViewBinding",
@@ -8802,35 +8802,35 @@
     {
       "groupId": "com.android",
       "artifactId": "signflinger",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android",
       "artifactId": "zipflinger",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.application",
       "artifactId": "com.android.application.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.asset-pack",
       "artifactId": "com.android.asset-pack.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.asset-pack-bundle",
       "artifactId": "com.android.asset-pack-bundle.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9082,14 +9082,14 @@
     {
       "groupId": "com.android.databinding",
       "artifactId": "adapters",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.databinding",
       "artifactId": "baseLibrary",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9110,14 +9110,14 @@
     {
       "groupId": "com.android.databinding",
       "artifactId": "library",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.databinding",
       "artifactId": "viewbinding",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9131,14 +9131,14 @@
     {
       "groupId": "com.android.dynamic-feature",
       "artifactId": "com.android.dynamic-feature.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.fused-library",
       "artifactId": "com.android.fused-library.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9179,14 +9179,14 @@
     {
       "groupId": "com.android.library",
       "artifactId": "com.android.library.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.lint",
       "artifactId": "com.android.lint.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10019,21 +10019,21 @@
     {
       "groupId": "com.android.test",
       "artifactId": "com.android.test.gradle.plugin",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "annotations",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "common",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10089,21 +10089,21 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "draw9patch",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "dvlib",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "ninepatch",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10124,91 +10124,91 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "repository",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "sdk-common",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "sdklib",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools",
       "artifactId": "testutils",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "crash",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "inspector",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "protos",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "publisher",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "shared",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "testing",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.analytics-library",
       "artifactId": "tracker",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.apkparser",
       "artifactId": "apkanalyzer",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.apkparser",
       "artifactId": "binary-resources",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10229,42 +10229,42 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aaptcompiler",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "apksig",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "apkzlib",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "builder",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "builder-model",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "builder-test-api",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10278,14 +10278,14 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-api",
-      "version": "7.3.0",
+      "version": "7.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10320,7 +10320,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "manifest-merger",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10341,35 +10341,35 @@
     {
       "groupId": "com.android.tools.chunkio",
       "artifactId": "chunkio",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.ddms",
       "artifactId": "ddmlib",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.emulator",
       "artifactId": "proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.external.com-intellij",
       "artifactId": "intellij-core",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.external.com-intellij",
       "artifactId": "kotlin-compiler",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10383,14 +10383,14 @@
     {
       "groupId": "com.android.tools.external.org-jetbrains",
       "artifactId": "uast",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.fakeadbserver",
       "artifactId": "fakeadbserver",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10404,35 +10404,35 @@
     {
       "groupId": "com.android.tools.layoutlib",
       "artifactId": "layoutlib-api",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-api",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-checks",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-gradle",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10453,21 +10453,21 @@
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-model",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-tests",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.lint",
       "artifactId": "lint-typedef-remover",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10481,112 +10481,112 @@
     {
       "groupId": "com.android.tools.pixelprobe",
       "artifactId": "pixelprobe",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-device-provider-ddmlib",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-device-provider-ddmlib-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-device-provider-gradle",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-device-provider-gradle-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-additional-test-output",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-additional-test-output-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-coverage",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-coverage-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-device-info",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-device-info-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-logcat",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-retention",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-retention-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-result-listener-gradle",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-result-listener-gradle-proto",
-      "version": "30.3.0",
+      "version": "30.3.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12753,7 +12753,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-location",
-      "version": "20.0.0",
+      "version": "21.0.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.location.ActivityRecognition",
@@ -13393,7 +13393,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-threadnetwork",
-      "version": "16.0.0-beta01",
+      "version": "16.0.0-beta02",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.threadnetwork.IntentSenderResult",
@@ -14412,7 +14412,16 @@
       "artifactId": "tv-ads",
       "version": "1.0.0-alpha01",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "com.google.android.tv.ads.AdsControlsManager",
+        "com.google.android.tv.ads.CustomFallbackImageRenderer",
+        "com.google.android.tv.ads.IconClickFallbackImage",
+        "com.google.android.tv.ads.IconClickFallbackImages",
+        "com.google.android.tv.ads.SignalCollector",
+        "com.google.android.tv.ads.controls.ErrorMessageFragment",
+        "com.google.android.tv.ads.controls.FallbackImageActivity",
+        "com.google.android.tv.ads.controls.WhyThisAdFragment"
+      ]
     },
     {
       "groupId": "com.google.android.ump",

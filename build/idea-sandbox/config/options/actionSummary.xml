@@ -1,5 +1,8 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="1" l="1665766269420" />
+    </e>
     <e n="$SelectAll">
       <i c="2" l="1665594232212" />
     </e>
@@ -31,7 +34,7 @@
       <i c="1" l="1665593485788" />
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
-      <i c="1" l="1665679750711" />
+      <i c="2" l="1665766623785" />
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
       <i c="1" l="1665594292169" />
