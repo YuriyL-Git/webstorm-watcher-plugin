@@ -13,10 +13,17 @@ import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.util.messages.MessageBus;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.IOException;
+
 public class ProjectOpenCloseListener implements ProjectManagerListener {
     @Override
   public void projectOpened(@NotNull Project project) {
-     // Notifications.Bus.notify(new Notification("Custom Notification Group","Project OPENED!", NotificationType.INFORMATION));
+        MainHandler handler = new MainHandler();
+        try {
+            handler.onProjectOpened();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         MessageBus messageBus = project.getMessageBus();
         messageBus.connect().subscribe(FileEditorManagerListener.FILE_EDITOR_MANAGER, new FileEditorManagerListener() {
@@ -32,21 +39,30 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
             @Override
             public void selectionChanged(@NotNull FileEditorManagerEvent event) {
                 Editor editor = event.getManager().getSelectedTextEditor();
-                editor.addEditorMouseListener(new MouseListener());
+                editor.addEditorMouseListener(new EditorMouseListener(){
+                    @Override
+                    public void mouseClicked(EditorMouseEvent event) {
+                        editorMouseClickHandler(event);
+                    }
+                });
+
+                try {
+                    handler.onFileChanged();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
 
             }
         });
     }
-}
 
-class MouseListener implements EditorMouseListener {
-    @NotNull
-    @Override
-    public void mouseClicked(EditorMouseEvent event) {
+    public void editorMouseClickHandler(EditorMouseEvent event) {
         Project project = ProjectManager.getInstance().getOpenProjects()[0];
         FileEditorManager manager = FileEditorManager.getInstance(project);
         VirtualFile file = manager.getSelectedFiles()[0];
         MainHandler handler = new MainHandler();
-        handler.start(event.getEditor(), file);
+        handler.onEditorMouseClick(event.getEditor(), file);
     }
+
 }
+

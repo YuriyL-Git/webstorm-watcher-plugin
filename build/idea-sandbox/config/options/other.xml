@@ -12,6 +12,11 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2G8OG5soEzVgAIoxuD17M34bx0u">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
@@ -28,7 +33,7 @@
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/untitled4" />
-    <property name="file.gist.reindex.count" value="17" />
+    <property name="file.gist.reindex.count" value="21" />
     <property name="fileTypeChangedCounter" value="3" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
