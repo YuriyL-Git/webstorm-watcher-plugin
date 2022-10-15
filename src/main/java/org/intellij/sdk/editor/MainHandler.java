@@ -4,6 +4,7 @@ import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationType;
 import com.intellij.notification.Notifications;
 import com.intellij.openapi.editor.Editor;
+import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
 
 import java.io.IOException;
@@ -13,11 +14,12 @@ import java.net.URL;
 
 
 class MainHandler {
-    public void onProjectOpened() throws IOException {
-        Server.connectToServer();
+    public void onProjectOpened(Project project) throws IOException {
+        Server.connectToServer(project);
     }
 
-    public void onFileChanged() throws IOException {
+    public void onFileChanged(Project project) throws IOException {
+        Server.connectToServer(project);
     }
 
     public void onEditorMouseClick(Editor editor, VirtualFile file) {

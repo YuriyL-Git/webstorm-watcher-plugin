@@ -141,4 +141,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/editor_basics$webstorm_watcher_plugin__runIde_.ic" NAME="webstorm-watcher-plugin [runIde] Coverage Results" MODIFIED="1665828806869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
 </project>

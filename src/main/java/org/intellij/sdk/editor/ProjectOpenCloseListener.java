@@ -20,7 +20,7 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
   public void projectOpened(@NotNull Project project) {
         MainHandler handler = new MainHandler();
         try {
-            handler.onProjectOpened();
+            handler.onProjectOpened(project);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -47,7 +47,7 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
                 });
 
                 try {
-                    handler.onFileChanged();
+                    handler.onFileChanged(project);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
