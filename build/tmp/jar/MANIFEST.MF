@@ -4,6 +4,6 @@ Build-JVM: 17.0.4.1 (Amazon.com Inc. 17.0.4.1+9-LTS)
 Version: 2.0.0
 Build-Plugin: Gradle IntelliJ Plugin
 Build-Plugin-Version: 1.9.0
-Build-OS: Linux 5.11.0-7620-generic amd64
+Build-OS: Windows 10 10.0 amd64
 Build-SDK: IC-2021.3.3
 

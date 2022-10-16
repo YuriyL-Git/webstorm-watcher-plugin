@@ -33,29 +33,23 @@ public class Server {
                     ServerSocket serverSocket = new ServerSocket(9991);
                     Socket connectionSocket = serverSocket.accept();
 
-
                     InputStream inputToServer = connectionSocket.getInputStream();
                     OutputStream outputFromServer = connectionSocket.getOutputStream();
-
 
                     Scanner scanner = new Scanner(inputToServer, "UTF-8");
                     PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
 
-                    serverPrintOut.println("Hello World! Enter Peace to exit.");
+                    serverPrintOut.println("Start");//dont delete!
 
-
-                    Notifications.Bus.notify(new Notification("Custom Notification Group","Custom messsage: ", NotificationType.INFORMATION));
-
-
-                    while(scanner.hasNextLine()) {
+                    while (scanner.hasNextLine()) {
                         String line = scanner.nextLine();
                         ApplicationManager.getApplication().invokeLater(new Runnable() {
                             @Override
                             public void run() {
-                                serverPrintOut.println("Echo from <Your Name Here> Server: " + Server.getCommandResponce(line, project));
+                                serverPrintOut.println("" + Server.getCommandResponce(line, project));
                             }
                         });
-                        Notifications.Bus.notify(new Notification("Custom Notification Group","Responce: " + line, NotificationType.INFORMATION));
+                        Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
                     }
                 } catch (IOException e) {
                     System.err.println("Unable to process client request");
@@ -63,23 +57,27 @@ public class Server {
                 }
             }
         };
-       Thread serverThread = new Thread(serverTask);
-
-
+        Thread serverThread = new Thread(serverTask);
         serverThread.start();
 
-        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server started on port: "+PORT_NUMBER, NotificationType.INFORMATION));
+        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server started on port: " + PORT_NUMBER, NotificationType.INFORMATION));
     }
 
-    public static @NotNull @NlsSafe String getCommandResponce(String command, Project project) {
+    public static @NotNull
+    @NlsSafe String getCommandResponce(String command, Project project) {
         FileEditorManager manager = FileEditorManager.getInstance(project);
         Editor editor = manager.getSelectedTextEditor();
-        Notifications.Bus.notify(new Notification("Custom Notification Group","Command: " + command, NotificationType.INFORMATION));
 
-        if (Objects.equals(command, "editor")) {
-            return editor.getDocument().getText();
-        } else {
-            return "Wrong command";
+        String result;
+        switch (command) {
+            case "editorText":
+                result = editor.getDocument().getText();
+                break;
+            default:
+                result = "Wrong command";
+                break;
         }
+
+        return result;
     }
 }

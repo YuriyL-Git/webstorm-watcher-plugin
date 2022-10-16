@@ -9158,7 +9158,7 @@
     {
       "groupId": "com.android.internal.settings",
       "artifactId": "com.android.internal.settings.gradle.plugin",
-      "version": "8.0.0-alpha03",
+      "version": "8.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9228,7 +9228,7 @@
     {
       "groupId": "com.android.privacy-sandbox-sdk",
       "artifactId": "com.android.privacy-sandbox-sdk.gradle.plugin",
-      "version": "8.0.0-alpha03",
+      "version": "8.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9242,7 +9242,7 @@
     {
       "groupId": "com.android.settings",
       "artifactId": "com.android.settings.gradle.plugin",
-      "version": "8.0.0-alpha03",
+      "version": "8.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10110,7 +10110,7 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "play-sdk-proto",
-      "version": "31.0.0-alpha03",
+      "version": "31.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10215,7 +10215,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aapt2",
-      "version": "8.0.0-alpha03-8841542",
+      "version": "8.0.0-alpha04-8841542",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10306,14 +10306,14 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings",
-      "version": "8.0.0-alpha03",
+      "version": "8.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings-api",
-      "version": "8.0.0-alpha03",
+      "version": "8.0.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10711,7 +10711,7 @@
     {
       "groupId": "com.google.ads.interactivemedia.v3",
       "artifactId": "interactivemedia",
-      "version": "3.28.2",
+      "version": "3.29.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.ads.interactivemedia.v3.api.Ad",
@@ -10740,10 +10740,7 @@
         "com.google.ads.interactivemedia.v3.api.StreamRequest",
         "com.google.ads.interactivemedia.v3.api.UiElement",
         "com.google.ads.interactivemedia.v3.api.UniversalAdId",
-        "com.google.ads.interactivemedia.v3.api.esp.EspAdapter",
-        "com.google.ads.interactivemedia.v3.api.esp.EspCollectSignalsCallback",
-        "com.google.ads.interactivemedia.v3.api.esp.EspInitializeCallback",
-        "com.google.ads.interactivemedia.v3.api.esp.EspVersion",
+        "com.google.ads.interactivemedia.v3.api.VersionInfo",
         "com.google.ads.interactivemedia.v3.api.player.AdMediaInfo",
         "com.google.ads.interactivemedia.v3.api.player.AdProgressProvider",
         "com.google.ads.interactivemedia.v3.api.player.ContentProgressProvider",
@@ -10751,7 +10748,10 @@
         "com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer",
         "com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate",
         "com.google.ads.interactivemedia.v3.api.player.VideoStreamPlayer",
-        "com.google.ads.interactivemedia.v3.api.player.VolumeProvider"
+        "com.google.ads.interactivemedia.v3.api.player.VolumeProvider",
+        "com.google.ads.interactivemedia.v3.api.signals.SecureSignalsAdapter",
+        "com.google.ads.interactivemedia.v3.api.signals.SecureSignalsCollectSignalsCallback",
+        "com.google.ads.interactivemedia.v3.api.signals.SecureSignalsInitializeCallback"
       ]
     },
     {
