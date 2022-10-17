@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Created-By: Gradle 7.5.1
-Build-JVM: 17.0.4.1 (Amazon.com Inc. 17.0.4.1+9-LTS)
+Build-JVM: 17.0.4.1 (JetBrains s.r.o. 17.0.4.1+7-b469.62)
 Version: 2.0.0
 Build-Plugin: Gradle IntelliJ Plugin
 Build-Plugin-Version: 1.9.0

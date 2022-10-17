@@ -17,12 +17,17 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="2GEeLpwqrGZ8AFVGYhUmKa9ocrQ">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
       </map>
     </trackers>
   </component>
   <component name="NotRoamableUiSettings">
-    <option name="fontScale" value="1.5" />
-    <option name="fontSize" value="23" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="15" />
   </component>
   <component name="PropertiesComponent">
     <property name="CWM_LOGGING_VERSION" value="1" />
@@ -33,7 +38,7 @@
     <property name="defaultJdkConfigured" value="true" />
     <property name="eclipse.projects.detected" value="" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/untitled4" />
-    <property name="file.gist.reindex.count" value="21" />
+    <property name="file.gist.reindex.count" value="22" />
     <property name="fileTypeChangedCounter" value="3" />
     <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />

@@ -4,7 +4,15 @@
       <map>
         <entry key="$USER_HOME$/IdeaProjects/untitled12" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/untitled4" value="true" />
+        <entry key="C:\Users\Admin\IdeaProjects\untitled4" value="true" />
       </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="C:\Users\Admin\IdeaProjects" />
+      </list>
     </option>
   </component>
 </application>

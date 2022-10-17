@@ -3,8 +3,11 @@ package org.intellij.sdk.editor;
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationType;
 import com.intellij.notification.Notifications;
+import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
+import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.Editor;
+import com.intellij.openapi.editor.EditorModificationUtil;
 import com.intellij.openapi.fileEditor.FileEditorManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.project.ProjectManager;
@@ -49,7 +52,7 @@ public class Server {
                                 serverPrintOut.println("" + Server.getCommandResponce(line, project));
                             }
                         });
-                        Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
+                       // Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
                     }
                 } catch (IOException e) {
                     System.err.println("Unable to process client request");
@@ -67,16 +70,40 @@ public class Server {
     @NlsSafe String getCommandResponce(String command, Project project) {
         FileEditorManager manager = FileEditorManager.getInstance(project);
         Editor editor = manager.getSelectedTextEditor();
-
         String result;
+
+        if (command.startsWith("code::")) {
+
+            String code = command.replace("code::", "").replaceAll("\\*&\\*", "\n");
+            int textLength = editor.getDocument().getTextLength();
+
+            ApplicationManager.getApplication().invokeLater( () -> {
+                WriteCommandAction.runWriteCommandAction(project, () -> {
+                    editor.getDocument().deleteString(0, textLength);
+                    editor.getDocument().insertString(0, code);
+                });
+            });
+            result = "Code is accepted";
+        }
+
+
         switch (command) {
             case "editorText":
                 result = editor.getDocument().getText();
                 break;
+            case "caretLine":
+                result = editor.getCaretModel().getLogicalPosition().line + "";
+                break;
+            case "caretColumn":
+                result = editor.getCaretModel().getLogicalPosition().column + "";
+                break;
+
             default:
                 result = "Wrong command";
                 break;
         }
+
+
 
         return result;
     }
