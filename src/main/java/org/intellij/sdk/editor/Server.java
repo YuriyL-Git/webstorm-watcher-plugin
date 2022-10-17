@@ -52,7 +52,7 @@ public class Server {
                                 serverPrintOut.println("" + Server.getCommandResponce(line, project));
                             }
                         });
-                       // Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
+                        // Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
                     }
                 } catch (IOException e) {
                     System.err.println("Unable to process client request");
@@ -77,7 +77,7 @@ public class Server {
             String code = command.replace("code::", "").replaceAll("\\*&\\*", "\n");
             int textLength = editor.getDocument().getTextLength();
 
-            ApplicationManager.getApplication().invokeLater( () -> {
+            ApplicationManager.getApplication().invokeLater(() -> {
                 WriteCommandAction.runWriteCommandAction(project, () -> {
                     editor.getDocument().deleteString(0, textLength);
                     editor.getDocument().insertString(0, code);
@@ -97,12 +97,17 @@ public class Server {
             case "caretColumn":
                 result = editor.getCaretModel().getLogicalPosition().column + "";
                 break;
+            case "filePath":
+                result = manager.getSelectedFiles()[0].getPath();
+                break;
+            case "fileName":
+                result = manager.getSelectedFiles()[0].getName();
+                break;
 
             default:
                 result = "Wrong command";
                 break;
         }
-
 
 
         return result;
