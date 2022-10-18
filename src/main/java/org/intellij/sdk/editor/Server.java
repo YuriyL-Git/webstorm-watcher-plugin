@@ -6,8 +6,7 @@ import com.intellij.notification.Notifications;
 import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.WriteCommandAction;
-import com.intellij.openapi.editor.Editor;
-import com.intellij.openapi.editor.EditorModificationUtil;
+import com.intellij.openapi.editor.*;
 import com.intellij.openapi.fileEditor.FileEditorManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.project.ProjectManager;
@@ -73,7 +72,6 @@ public class Server {
         String result;
 
         if (command.startsWith("code::")) {
-
             String code = command.replace("code::", "").replaceAll("\\*&\\*", "\n");
             int textLength = editor.getDocument().getTextLength();
 
@@ -81,6 +79,22 @@ public class Server {
                 WriteCommandAction.runWriteCommandAction(project, () -> {
                     editor.getDocument().deleteString(0, textLength);
                     editor.getDocument().insertString(0, code);
+                });
+            });
+            result = "Code is accepted";
+        }
+
+        if (command.startsWith("moveCaret::")) {
+            String caretPosition = command.replace("moveCaret::", "").replaceAll("\\*&\\*", "\n");
+            String[] coords = caretPosition.split("\\s+");
+            int line = Integer.parseInt(coords[0]);
+            int column = Integer.parseInt(coords[1]);
+            LogicalPosition position = new LogicalPosition(line, column);
+
+            ApplicationManager.getApplication().invokeLater(() -> {
+                WriteCommandAction.runWriteCommandAction(project, () -> {
+                    editor.getCaretModel().moveToLogicalPosition(position);
+                   editor.getScrollingModel().scrollTo(position, ScrollType.CENTER);
                 });
             });
             result = "Code is accepted";
@@ -103,7 +117,6 @@ public class Server {
             case "fileName":
                 result = manager.getSelectedFiles()[0].getName();
                 break;
-
             default:
                 result = "Wrong command";
                 break;

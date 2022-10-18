@@ -451,6 +451,39 @@
       <entry key="*.li">
         <plugin pluginId="org.jetbrains.android" pluginName="Android" bundled="true" />
       </entry>
+      <entry key="*constants.txt">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.typoscript">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.t3s">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.tsconfig">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*ext_conf_template.txt">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*setup.txt">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.ts">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*ext_typoscript_setup.txt">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.fusion">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.ts2">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
+      <entry key="*.nf">
+        <plugin pluginId="de.sgalinski.typoscript.enterprise.plugin.id" pluginName="TYPO3 TypoScript - Enterprise" />
+      </entry>
     </plugins>
   </component>
   <component name="PluginFeatureCacheService">

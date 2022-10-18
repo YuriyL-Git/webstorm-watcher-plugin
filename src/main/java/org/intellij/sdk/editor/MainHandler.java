@@ -23,7 +23,7 @@ class MainHandler {
     }
 
     public void onEditorMouseClick(Editor editor, VirtualFile file) {
-        Notifications.Bus.notify(new Notification("Custom Notification Group", "Clicked2 " + file.getName(), NotificationType.INFORMATION));
+      //  Notifications.Bus.notify(new Notification("Custom Notification Group", "Clicked2 " + file.getName(), NotificationType.INFORMATION));
 
     }
 

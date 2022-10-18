@@ -5,287 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ad2e9b-ee12-4c82-ad49-6b39f171aa6c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/intellij/sdk/editor/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/intellij/sdk/editor/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/actionSummary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/actionSummary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/features.usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/features.usage.statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/recentProjects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/updates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/updates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/window.state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/window.state.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/port" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/port" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/workspace/2GEeLpwqrGZ8AFVGYhUmKa9ocrQ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/workspace/2GEeLpwqrGZ8AFVGYhUmKa9ocrQ.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/editor_basics/lib/editor_basics-2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/editor_basics/lib/editor_basics-2.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/pkgs/normalizedVersions.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/pkgs/normalizedVersions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog1.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog1.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog1.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog10.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog10.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog10.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog100.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog100.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog101.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog101.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog102.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog102.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog103.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog103.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog104.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog104.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog105.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog105.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog106.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog106.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog107.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog107.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog108.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog108.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog109.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog109.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog11.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog11.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog11.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog110.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog110.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog111.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog111.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog112.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog112.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog113.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog113.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog12.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog12.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog12.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog13.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog13.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog13.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog14.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog14.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog14.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog15.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog15.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog15.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog16.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog16.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog17.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog18.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog19.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog19.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog2.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog2.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog2.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog20.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog20.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog21.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog22.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog23.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog23.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog24.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog25.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog26.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog26.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog27.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog28.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog28.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog29.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog29.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog3.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog3.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog3.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog30.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog30.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog31.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog32.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog33.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog34.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog35.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog35.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog36.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog36.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog37.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog38.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog39.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog4.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog4.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog4.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog40.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog40.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog41.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog41.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog42.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog42.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog43.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog43.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog44.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog44.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog45.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog46.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog46.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog47.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog47.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog48.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog49.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog5.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog5.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog5.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog50.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog51.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog51.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog52.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog52.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog53.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog53.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog54.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog54.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog55.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog56.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog57.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog58.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog59.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog59.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog6.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog6.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog6.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog60.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog61.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog61.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog62.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog62.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog63.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog63.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog64.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog64.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog65.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog66.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog66.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog67.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog67.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog68.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog68.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog69.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog69.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog7.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog7.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog7.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog70.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog70.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog71.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog71.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog72.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog72.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog73.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog74.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog74.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog75.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog75.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog76.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog76.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog77.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog77.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog78.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog78.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog79.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog79.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog8.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog8.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog8.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog80.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog80.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog81.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog81.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog82.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog82.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog83.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog83.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog84.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog84.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog85.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog85.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog86.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog86.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog87.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog87.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog88.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog88.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog89.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog89.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog9.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog9.json.ETag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog9.json.ETag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog90.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog90.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog91.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog91.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog92.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog93.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog93.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog94.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog94.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog95.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog95.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog96.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog97.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog98.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog98.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog99.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/httpFileSystem/catalog99.json.ETag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/icons-v3.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/icons-v3.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/indexing-diagnostic/untitled4.2ee9be70/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/indexing-diagnostic/untitled4.2ee9be70/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/port" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/port" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/tmp/jna4313220780578379223.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/tmp/jna4313220780578379223.dll.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/token" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/token" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/instrumented/instrumentCode/org/intellij/sdk/editor/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/editor_basics-2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/editor_basics-2.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/ProjectOpenCloseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/instrumentCode/org/intellij/sdk/editor/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -334,20 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/webstorm-watcher-plugin",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/webstorm-watcher-plugin&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor" />
@@ -412,7 +135,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665560900399</updated>
-      <workItem from="1666029797043" duration="4932000" />
+      <workItem from="1666029797043" duration="5752000" />
+      <workItem from="1666109543269" duration="5423000" />
     </task>
     <servers />
   </component>

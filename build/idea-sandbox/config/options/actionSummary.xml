@@ -7,7 +7,7 @@
       <i c="2" l="1665594232212" />
     </e>
     <e n="$Undo">
-      <i c="37" l="1666038453965" />
+      <i c="41" l="1666112193120" />
     </e>
     <e n="About">
       <i c="1" l="1666030032434" />
@@ -16,22 +16,28 @@
       <i c="1" l="1665685317577" />
     </e>
     <e n="EditorBackSpace">
-      <i c="11" l="1666038413152" />
+      <i c="18" l="1666114395470" />
     </e>
     <e n="EditorCopy">
-      <i c="2" l="1665964204418" />
+      <i c="6" l="1666122136930" />
     </e>
     <e n="EditorCut">
-      <i c="14" l="1666038410590" />
+      <i c="40" l="1666120686913" />
     </e>
     <e n="EditorDelete">
-      <i c="3" l="1666037988605" />
+      <i c="4" l="1666111491220" />
     </e>
     <e n="EditorEnter">
-      <i c="5" l="1666037990683" />
+      <i c="7" l="1666114554033" />
     </e>
     <e n="EditorLeft">
       <i c="1" l="1666036465356" />
+    </e>
+    <e n="EditorPaste">
+      <i c="8" l="1666119515549" />
+    </e>
+    <e n="Find">
+      <i c="1" l="1666119158670" />
     </e>
     <e n="Kotlin.NewFile">
       <i c="1" l="1665593499779" />
@@ -43,7 +49,7 @@
       <i c="1" l="1665685290552" />
     </e>
     <e n="SaveAll">
-      <i c="32" l="1666038234465" />
+      <i c="62" l="1666120687491" />
     </e>
     <e n="ShowIntentionActions">
       <i c="2" l="1665687080471" />
@@ -53,6 +59,12 @@
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
       <i c="4" l="1665964116061" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.SwitchToFind">
+      <i c="1" l="1666119160053" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerMain$2">
+      <i c="1" l="1666111831565" />
     </e>
     <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
       <i c="1" l="1665594292169" />

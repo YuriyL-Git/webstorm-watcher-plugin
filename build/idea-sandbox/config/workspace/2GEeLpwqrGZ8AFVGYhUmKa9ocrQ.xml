@@ -8,38 +8,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="137">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="PLAIN_TEXT">
-      <summary usageCount="11" lastUsed="1666037524785" />
+      <summary usageCount="21" lastUsed="1666122020226" />
+    </fileType>
+    <fileType name="TypoScript File">
+      <summary usageCount="6" lastUsed="1666119471751" />
     </fileType>
     <fileType name="textmate">
-      <summary usageCount="9" lastUsed="1666037525090" />
+      <summary usageCount="13" lastUsed="1666122020376" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/test.txt" />
       <option value="$PROJECT_DIR$/test.ts" />
+      <option value="$PROJECT_DIR$/test.txt" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -52,8 +51,8 @@
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -68,9 +67,8 @@
     </panes>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18149883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18364929" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Bookmarks" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -89,6 +87,7 @@
       <window_info anchor="bottom" id="Services" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Space Automation" order="0" />
       <window_info anchor="right" id="Layout Validation" order="1" />
+      <window_info anchor="right" id="documentation.v2" order="2" side_tool="true" />
     </layout>
     <recentWindows>
       <value>Project</value>
@@ -104,17 +103,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="137">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

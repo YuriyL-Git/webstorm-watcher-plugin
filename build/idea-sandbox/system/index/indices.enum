@@ -157,3 +157,7 @@ shared.index.hashes.PluginIdModuleIndex
 shared.index.hashes.PluginIdDependenciesIndex
 shared.index.hashes.devkit.ExtensionPointIndex
 shared.index.hashes.devkit.ExtensionPointClassIndex
+TypoScriptFileIndex
+TypoScriptReferenceIndex
+shared.index.hashes.TypoScriptFileIndex
+shared.index.hashes.TypoScriptReferenceIndex
