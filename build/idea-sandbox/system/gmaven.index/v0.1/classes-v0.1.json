@@ -9158,7 +9158,7 @@
     {
       "groupId": "com.android.internal.settings",
       "artifactId": "com.android.internal.settings.gradle.plugin",
-      "version": "8.0.0-alpha04",
+      "version": "8.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9193,7 +9193,7 @@
     {
       "groupId": "com.android.ndk.thirdparty",
       "artifactId": "curl",
-      "version": "7.83.1-beta-1",
+      "version": "7.85.0-beta-1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9221,14 +9221,14 @@
     {
       "groupId": "com.android.ndk.thirdparty",
       "artifactId": "openssl",
-      "version": "1.1.1p-beta-1",
+      "version": "1.1.1q-beta-1",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.privacy-sandbox-sdk",
       "artifactId": "com.android.privacy-sandbox-sdk.gradle.plugin",
-      "version": "8.0.0-alpha04",
+      "version": "8.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9242,7 +9242,7 @@
     {
       "groupId": "com.android.settings",
       "artifactId": "com.android.settings.gradle.plugin",
-      "version": "8.0.0-alpha04",
+      "version": "8.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10110,7 +10110,7 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "play-sdk-proto",
-      "version": "31.0.0-alpha04",
+      "version": "31.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10215,7 +10215,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aapt2",
-      "version": "8.0.0-alpha04-8841542",
+      "version": "8.0.0-alpha05-8841542",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10271,7 +10271,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "bundletool",
-      "version": "1.11.2",
+      "version": "1.12.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10306,14 +10306,14 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings",
-      "version": "8.0.0-alpha04",
+      "version": "8.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings-api",
-      "version": "8.0.0-alpha04",
+      "version": "8.0.0-alpha05",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13364,7 +13364,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-tflite-impl",
-      "version": "16.0.0",
+      "version": "16.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.tflite.client.TfLiteClient",
@@ -13375,7 +13375,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-tflite-java",
-      "version": "16.0.0",
+      "version": "16.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.tflite.java.TfLite"
@@ -13384,7 +13384,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-tflite-support",
-      "version": "16.0.0",
+      "version": "16.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.tflite.support.Empty"
@@ -13865,7 +13865,7 @@
     {
       "groupId": "com.google.android.material",
       "artifactId": "material",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.material.animation.ArgbEvaluatorCompat",
@@ -13891,6 +13891,7 @@
         "com.google.android.material.bottomsheet.BottomSheetBehavior",
         "com.google.android.material.bottomsheet.BottomSheetDialog",
         "com.google.android.material.bottomsheet.BottomSheetDialogFragment",
+        "com.google.android.material.bottomsheet.BottomSheetDragHandleView",
         "com.google.android.material.button.MaterialButton",
         "com.google.android.material.button.MaterialButtonToggleGroup",
         "com.google.android.material.card.MaterialCardView",
@@ -13931,7 +13932,9 @@
         "com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton",
         "com.google.android.material.floatingactionbutton.FloatingActionButton",
         "com.google.android.material.imageview.ShapeableImageView",
+        "com.google.android.material.materialswitch.MaterialSwitch",
         "com.google.android.material.math.MathUtils",
+        "com.google.android.material.motion.MotionUtils",
         "com.google.android.material.navigation.NavigationBarView",
         "com.google.android.material.navigation.NavigationView",
         "com.google.android.material.navigationrail.NavigationRailView",
@@ -14058,7 +14061,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "app-update",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.appupdate.AppUpdateInfo",
@@ -14073,7 +14076,8 @@
         "com.google.android.play.core.install.model.AppUpdateType",
         "com.google.android.play.core.install.model.InstallErrorCode",
         "com.google.android.play.core.install.model.InstallStatus",
-        "com.google.android.play.core.install.model.UpdateAvailability"
+        "com.google.android.play.core.install.model.UpdateAvailability",
+        "com.google.android.play.core.install.model.UpdatePrecondition"
       ]
     },
     {
@@ -14090,7 +14094,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "asset-delivery",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.assetpacks.AssetLocation",
@@ -14190,7 +14194,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "core-common",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.common.IntentSenderForResultStarter",
@@ -14213,7 +14217,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "feature-delivery",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.splitcompat.SplitCompat",
@@ -14258,7 +14262,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "review",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.review.ReviewException",
@@ -15594,7 +15598,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-bom",
-      "version": "31.0.0",
+      "version": "31.0.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -15743,7 +15747,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-crashlytics",
-      "version": "18.3.0",
+      "version": "18.3.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.firebase.crashlytics.AnalyticsDeferredProxy",
@@ -16712,7 +16716,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-crashlytics-ktx",
-      "version": "18.3.0",
+      "version": "18.3.1",
       "ktxTargets": [
         "com.google.firebase:firebase-crashlytics"
       ],
@@ -16724,7 +16728,7 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-crashlytics-ndk",
-      "version": "18.3.0",
+      "version": "18.3.1",
       "ktxTargets": [],
       "fqcns": [
         "com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar",
@@ -19027,7 +19031,7 @@
     {
       "groupId": "org.chromium.net",
       "artifactId": "cronet-api",
-      "version": "105.5195.68",
+      "version": "106.5249.126",
       "ktxTargets": [],
       "fqcns": [
         "org.chromium.net.ApiVersion",
@@ -19056,7 +19060,7 @@
     {
       "groupId": "org.chromium.net",
       "artifactId": "cronet-common",
-      "version": "105.5195.68",
+      "version": "106.5249.126",
       "ktxTargets": [],
       "fqcns": [
         "org.chromium.net.EffectiveConnectionType",
@@ -19067,7 +19071,7 @@
     {
       "groupId": "org.chromium.net",
       "artifactId": "cronet-embedded",
-      "version": "105.5195.68",
+      "version": "106.5249.126",
       "ktxTargets": [],
       "fqcns": [
         "J.N",
@@ -19140,6 +19144,7 @@
         "org.chromium.base.WrappedClassLoader",
         "org.chromium.base.annotations.AccessedByNative",
         "org.chromium.base.annotations.CalledByNative",
+        "org.chromium.base.annotations.CalledByNativeForTesting",
         "org.chromium.base.annotations.CalledByNativeUnchecked",
         "org.chromium.base.annotations.CheckDiscard",
         "org.chromium.base.annotations.DoNotClassMerge",
@@ -19235,7 +19240,7 @@
     {
       "groupId": "org.chromium.net",
       "artifactId": "cronet-fallback",
-      "version": "105.5195.68",
+      "version": "106.5249.126",
       "ktxTargets": [],
       "fqcns": []
     },

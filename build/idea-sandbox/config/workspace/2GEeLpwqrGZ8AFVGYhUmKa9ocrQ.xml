@@ -9,15 +9,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.ts">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -26,13 +17,13 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="PLAIN_TEXT">
-      <summary usageCount="21" lastUsed="1666122020226" />
+      <summary usageCount="24" lastUsed="1666458689132" />
     </fileType>
     <fileType name="TypoScript File">
       <summary usageCount="6" lastUsed="1666119471751" />
     </fileType>
     <fileType name="textmate">
-      <summary usageCount="13" lastUsed="1666122020376" />
+      <summary usageCount="19" lastUsed="1666458988678" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
@@ -67,6 +58,7 @@
     </panes>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18364929" />
       <window_info id="Structure" order="1" side_tool="true" />
@@ -103,10 +95,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="181">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://D:/Projects/sv-hero-dashboard/src/App.style.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.ts">
       <provider selected="true" editor-type-id="text-editor" />

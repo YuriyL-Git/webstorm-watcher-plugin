@@ -8,9 +8,12 @@ import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.*;
 import com.intellij.openapi.fileEditor.FileEditorManager;
+import com.intellij.openapi.fileEditor.OpenFileDescriptor;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.util.NlsSafe;
+import com.intellij.openapi.vfs.LocalFileSystem;
+import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
@@ -69,7 +72,7 @@ public class Server {
     @NlsSafe String getCommandResponce(String command, Project project) {
         FileEditorManager manager = FileEditorManager.getInstance(project);
         Editor editor = manager.getSelectedTextEditor();
-        String result;
+        String result = "";
 
         if (command.startsWith("code::")) {
             String code = command.replace("code::", "").replaceAll("\\*&\\*", "\n");
@@ -81,7 +84,7 @@ public class Server {
                     editor.getDocument().insertString(0, code);
                 });
             });
-            result = "Code is accepted";
+            result = "code:: success";
         }
 
         if (command.startsWith("moveCaret::")) {
@@ -97,9 +100,29 @@ public class Server {
                    editor.getScrollingModel().scrollTo(position, ScrollType.CENTER);
                 });
             });
-            result = "Code is accepted";
+            result = "moveCaret:: success";
         }
 
+        if (command.startsWith("openFile::")) {
+            String filepath = command.replace("openFile::", "");
+            Notifications.Bus.notify(new Notification("Custom Notification Group", filepath, NotificationType.INFORMATION));
+
+            VirtualFile file = LocalFileSystem.getInstance().findFileByPath(filepath);
+
+            ApplicationManager.getApplication().invokeLater(() -> {
+                WriteCommandAction.runWriteCommandAction(project, () -> {
+                    FileEditorManager.getInstance(project).openTextEditor(new OpenFileDescriptor(
+                            project,file
+                    ), true);
+
+                });
+            });
+            result = "openFile:: success";
+        }
+
+        if (result.length() > 0) {
+            return result;
+        }
 
         switch (command) {
             case "editorText":

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ad2e9b-ee12-4c82-ad49-6b39f171aa6c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665560900399</updated>
       <workItem from="1666029797043" duration="5752000" />
-      <workItem from="1666109543269" duration="5423000" />
+      <workItem from="1666109543269" duration="6131000" />
+      <workItem from="1666456582908" duration="2377000" />
     </task>
     <servers />
   </component>
