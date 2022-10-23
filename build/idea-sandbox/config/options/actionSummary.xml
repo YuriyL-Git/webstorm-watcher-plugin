@@ -7,13 +7,16 @@
       <i c="2" l="1665594232212" />
     </e>
     <e n="$Undo">
-      <i c="55" l="1666467859897" />
+      <i c="57" l="1666537426508" />
     </e>
     <e n="About">
       <i c="1" l="1666030032434" />
     </e>
     <e n="ActivateProjectToolWindow">
       <i c="1" l="1665685317577" />
+    </e>
+    <e n="Back">
+      <i c="8" l="1666537490711" />
     </e>
     <e n="EditorBackSpace">
       <i c="20" l="1666467845632" />
@@ -91,7 +94,7 @@
       <i c="1" l="1665594292169" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="22" l="1666516418468" />
+      <i c="25" l="1666537420520" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
       <i c="3" l="1665594294522" />

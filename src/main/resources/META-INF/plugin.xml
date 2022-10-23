@@ -37,12 +37,14 @@
     <listener class="org.intellij.sdk.editor.ProjectOpenCloseListener"
               topic="com.intellij.openapi.project.ProjectManagerListener"/>
   </applicationListeners>
-  <applicationListeners>
-    <listener class="org.intellij.sdk.editor.RestServer"
-              topic="org.jetbrains.ide.RestService"/>
-  </applicationListeners>
-  <actions>
 
+  <actions>
+    <action id="org.intellij.sdk.action.MoveToCssClassAction"
+            text="Action Basics Plugin: Pop Dialog Action" description="SDK action example"
+            icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.MoveToCssClassAction">
+      <keyboard-shortcut first-keystroke="alt C" keymap="$default"/>
+      <mouse-shortcut keystroke="alt click" keymap="$default"/>
+    </action>
     <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
   </actions>
 
