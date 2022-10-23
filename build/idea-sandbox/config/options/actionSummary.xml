@@ -7,7 +7,7 @@
       <i c="2" l="1665594232212" />
     </e>
     <e n="$Undo">
-      <i c="41" l="1666112193120" />
+      <i c="55" l="1666467859897" />
     </e>
     <e n="About">
       <i c="1" l="1666030032434" />
@@ -16,10 +16,10 @@
       <i c="1" l="1665685317577" />
     </e>
     <e n="EditorBackSpace">
-      <i c="18" l="1666114395470" />
+      <i c="20" l="1666467845632" />
     </e>
     <e n="EditorCopy">
-      <i c="6" l="1666122136930" />
+      <i c="8" l="1666515303398" />
     </e>
     <e n="EditorCut">
       <i c="40" l="1666120686913" />
@@ -27,17 +27,35 @@
     <e n="EditorDelete">
       <i c="4" l="1666111491220" />
     </e>
+    <e n="EditorDown">
+      <i c="1" l="1666515674633" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="2" l="1666463366646" />
+    </e>
     <e n="EditorEnter">
-      <i c="7" l="1666114554033" />
+      <i c="9" l="1666463387179" />
     </e>
     <e n="EditorLeft">
-      <i c="1" l="1666036465356" />
+      <i c="11" l="1666515635602" />
     </e>
     <e n="EditorPaste">
-      <i c="8" l="1666119515549" />
+      <i c="9" l="1666462377960" />
+    </e>
+    <e n="EditorRight">
+      <i c="314" l="1666515674133" />
+    </e>
+    <e n="EditorUp">
+      <i c="1" l="1666515675321" />
     </e>
     <e n="Find">
       <i c="1" l="1666119158670" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1666469173380" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1666514062492" />
     </e>
     <e n="Kotlin.NewFile">
       <i c="1" l="1665593499779" />
@@ -46,19 +64,22 @@
       <i c="2" l="1665689935481" />
     </e>
     <e n="OpenFile">
-      <i c="1" l="1665685290552" />
+      <i c="3" l="1666461102678" />
     </e>
     <e n="SaveAll">
-      <i c="62" l="1666120687491" />
+      <i c="65" l="1666463624632" />
     </e>
     <e n="ShowIntentionActions">
       <i c="2" l="1665687080471" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1666468781438" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="1" l="1665593485788" />
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
-      <i c="4" l="1665964116061" />
+      <i c="5" l="1666461093400" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.SwitchToFind">
       <i c="1" l="1666119160053" />
@@ -70,10 +91,13 @@
       <i c="1" l="1665594292169" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="13" l="1665690366017" />
+      <i c="22" l="1666516418468" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
       <i c="3" l="1665594294522" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1666464618573" />
     </e>
   </component>
 </application>

@@ -6,24 +6,15 @@
       </GroupState>
     </option>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="PLAIN_TEXT">
-      <summary usageCount="24" lastUsed="1666458689132" />
+      <summary usageCount="25" lastUsed="1666460779819" />
     </fileType>
     <fileType name="TypoScript File">
       <summary usageCount="6" lastUsed="1666119471751" />
     </fileType>
     <fileType name="textmate">
-      <summary usageCount="19" lastUsed="1666458988678" />
+      <summary usageCount="28" lastUsed="1666460785271" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
@@ -42,8 +33,8 @@
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -58,9 +49,8 @@
     </panes>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18364929" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18127963" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Bookmarks" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
@@ -86,11 +76,15 @@
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2141" y="73" key="IDE.errors.dialog" timestamp="1665964380029">
+    <state x="2341" y="95" key="FileChooserDialogImpl" timestamp="1666461104157">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2341" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1666461104157" />
+    <state x="2141" y="73" key="IDE.errors.dialog" timestamp="1666461099753">
       <screen x="1920" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="73" key="IDE.errors.dialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1665964101378" />
-    <state x="2141" y="73" key="IDE.errors.dialog/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1665964380029" />
+    <state x="2141" y="73" key="IDE.errors.dialog/0.0.1280.680/1920.0.1280.680@1920.0.1280.680" timestamp="1666461099753" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.txt">
@@ -101,10 +95,18 @@
       </provider>
     </entry>
     <entry file="file://D:/Projects/sv-hero-dashboard/src/App.style.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

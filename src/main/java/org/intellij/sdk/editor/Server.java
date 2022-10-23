@@ -3,14 +3,12 @@ package org.intellij.sdk.editor;
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationType;
 import com.intellij.notification.Notifications;
-import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.*;
 import com.intellij.openapi.fileEditor.FileEditorManager;
 import com.intellij.openapi.fileEditor.OpenFileDescriptor;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.util.NlsSafe;
 import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.openapi.vfs.VirtualFile;
@@ -19,7 +17,6 @@ import org.jetbrains.annotations.NotNull;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Server {
@@ -28,14 +25,12 @@ public class Server {
     public static void main(String[] args) {
     }
 
-    public static void connectToServer(Project project) {
-        int PORT_NUMBER = 9991;
-
+    public static void createServer(int portNumber, Project project) {
         Runnable serverTask = new Runnable() {
             @Override
             public void run() {
                 try {
-                    ServerSocket serverSocket = new ServerSocket(9991);
+                    ServerSocket serverSocket = new ServerSocket(portNumber);
                     Socket connectionSocket = serverSocket.accept();
 
                     InputStream inputToServer = connectionSocket.getInputStream();
@@ -54,7 +49,6 @@ public class Server {
                                 serverPrintOut.println("" + Server.getCommandResponce(line, project));
                             }
                         });
-                        // Notifications.Bus.notify(new Notification("Custom Notification Group", "Request: " + line, NotificationType.INFORMATION));
                     }
                 } catch (IOException e) {
                     System.err.println("Unable to process client request");
@@ -65,7 +59,14 @@ public class Server {
         Thread serverThread = new Thread(serverTask);
         serverThread.start();
 
-        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server started on port: " + PORT_NUMBER, NotificationType.INFORMATION));
+        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server started on port: " + portNumber, NotificationType.INFORMATION));
+    }
+
+    public static void connectToServer(Project project) {
+        int PORT_NUMBER_SERVER1 = 9991;
+        int PORT_NUMBER_SERVER2 = 9992;
+        createServer(PORT_NUMBER_SERVER1, project);
+        createServer(PORT_NUMBER_SERVER2, project);
     }
 
     public static @NotNull
