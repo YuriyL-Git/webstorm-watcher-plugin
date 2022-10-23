@@ -38,7 +38,7 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
 
             @Override
             public void selectionChanged(@NotNull FileEditorManagerEvent event) {
-                Editor editor = event.getManager().getSelectedTextEditor();
+           /*     Editor editor = event.getManager().getSelectedTextEditor();
                 editor.addEditorMouseListener(new EditorMouseListener(){
                     @Override
                     public void mouseClicked(EditorMouseEvent event) {
@@ -50,18 +50,18 @@ public class ProjectOpenCloseListener implements ProjectManagerListener {
                     handler.onFileChanged(project);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
-                }
+                }*/
 
             }
         });
     }
 
     public void editorMouseClickHandler(EditorMouseEvent event) {
-        Project project = ProjectManager.getInstance().getOpenProjects()[0];
+    /*    Project project = ProjectManager.getInstance().getOpenProjects()[0];
         FileEditorManager manager = FileEditorManager.getInstance(project);
         VirtualFile file = manager.getSelectedFiles()[0];
         MainHandler handler = new MainHandler();
-        handler.onEditorMouseClick(event.getEditor(), file);
+        handler.onEditorMouseClick(event.getEditor(), file);*/
     }
 
 }

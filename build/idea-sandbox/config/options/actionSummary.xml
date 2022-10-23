@@ -4,7 +4,7 @@
       <i c="1" l="1665766269420" />
     </e>
     <e n="$SelectAll">
-      <i c="2" l="1665594232212" />
+      <i c="3" l="1666540190886" />
     </e>
     <e n="$Undo">
       <i c="57" l="1666537426508" />
@@ -13,16 +13,19 @@
       <i c="1" l="1666030032434" />
     </e>
     <e n="ActivateProjectToolWindow">
-      <i c="1" l="1665685317577" />
+      <i c="2" l="1666540157694" />
     </e>
     <e n="Back">
-      <i c="8" l="1666537490711" />
+      <i c="14" l="1666540137066" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="3" l="1666540184238" />
     </e>
     <e n="EditorBackSpace">
-      <i c="20" l="1666467845632" />
+      <i c="22" l="1666540181491" />
     </e>
     <e n="EditorCopy">
-      <i c="8" l="1666515303398" />
+      <i c="11" l="1666540191225" />
     </e>
     <e n="EditorCut">
       <i c="40" l="1666120686913" />
@@ -40,10 +43,10 @@
       <i c="9" l="1666463387179" />
     </e>
     <e n="EditorLeft">
-      <i c="11" l="1666515635602" />
+      <i c="12" l="1666540203316" />
     </e>
     <e n="EditorPaste">
-      <i c="9" l="1666462377960" />
+      <i c="11" l="1666540194131" />
     </e>
     <e n="EditorRight">
       <i c="314" l="1666515674133" />
@@ -52,10 +55,10 @@
       <i c="1" l="1666515675321" />
     </e>
     <e n="Find">
-      <i c="1" l="1666119158670" />
+      <i c="3" l="1666540153661" />
     </e>
     <e n="GotoDeclaration">
-      <i c="1" l="1666469173380" />
+      <i c="3" l="1666540152360" />
     </e>
     <e n="HideAllWindows">
       <i c="1" l="1666514062492" />
@@ -69,8 +72,11 @@
     <e n="OpenFile">
       <i c="3" l="1666461102678" />
     </e>
+    <e n="RenameElement">
+      <i c="1" l="1666540190212" />
+    </e>
     <e n="SaveAll">
-      <i c="65" l="1666463624632" />
+      <i c="67" l="1666540204867" />
     </e>
     <e n="ShowIntentionActions">
       <i c="2" l="1665687080471" />
@@ -83,6 +89,12 @@
     </e>
     <e n="com.intellij.diagnostic.IdeMessagePanel$4">
       <i c="5" l="1666461093400" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="4" l="1666540150478" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
+      <i c="1" l="1666540154902" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.SwitchToFind">
       <i c="1" l="1666119160053" />

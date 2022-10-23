@@ -59,7 +59,6 @@ public class Server {
         Thread serverThread = new Thread(serverTask);
         serverThread.start();
 
-        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server started on port: " + portNumber, NotificationType.INFORMATION));
     }
 
     public static void connectToServer(Project project) {
@@ -67,6 +66,8 @@ public class Server {
         int PORT_NUMBER_SERVER2 = 9992;
         createServer(PORT_NUMBER_SERVER1, project);
         createServer(PORT_NUMBER_SERVER2, project);
+        Notifications.Bus.notify(new Notification("Custom Notification Group", "Keymap server started", NotificationType.INFORMATION));
+
     }
 
     public static @NotNull
@@ -106,7 +107,6 @@ public class Server {
 
         if (command.startsWith("openFile::")) {
             String filepath = command.replace("openFile::", "");
-            Notifications.Bus.notify(new Notification("Custom Notification Group", filepath, NotificationType.INFORMATION));
 
             VirtualFile file = LocalFileSystem.getInstance().findFileByPath(filepath);
 

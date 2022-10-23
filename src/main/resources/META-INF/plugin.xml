@@ -43,7 +43,12 @@
             text="Action Basics Plugin: Pop Dialog Action" description="SDK action example"
             icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.MoveToCssClassAction">
       <keyboard-shortcut first-keystroke="alt C" keymap="$default"/>
-      <mouse-shortcut keystroke="alt click" keymap="$default"/>
+    </action>
+
+    <action id="org.intellij.sdk.action.RestartServerAction"
+            text="Action Basics Plugin: Pop Dialog Action" description="SDK action example"
+            icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.RestartServerAction">
+      <keyboard-shortcut first-keystroke="control alt R" keymap="$default"/>
     </action>
     <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
   </actions>

@@ -36,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="CWM_LOGGING_VERSION" value="1" />
+    <property name="FindSplitterProportion" value="0.44228694" />
     <property name="NextRunPlatformUpdateBuild" value="IC-222.4345.14/2022.2.3" />
     <property name="NextRunPlatformUpdateVersion" value="2022.2.3" />
     <property name="TypoScriptHasValidLicense" value="false" />
