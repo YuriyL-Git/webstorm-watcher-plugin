@@ -7,7 +7,7 @@
   <id>org.intellij.sdk.editor</id>
 
   <!-- Text to display as name on Preferences/Settings | Plugin page -->
-  <name>SDK: Editor Sample</name>
+  <name>Electron App Watcher</name>
 
   <!-- Product and plugin compatibility requirements -->
   <depends>com.intellij.modules.platform</depends>
@@ -15,9 +15,7 @@
   <!-- Text to display as description on Preferences/Settings | Plugin page -->
   <description>
     <![CDATA[
-      Illustrates various basic Editor APIs. Requires at least project to be open, and a file open in the editor
-      to see the menu items this plugin adds to the editor popup menu.<br>Mouse over each of this plugin's menu items
-      to see hints in the lower left corner of the IDE.
+      Watcher plugin to work with electron custom app
     ]]>
   </description>
   <change-notes>
