@@ -3,6 +3,9 @@
     <e n="$Delete">
       <i c="1" l="1665766269420" />
     </e>
+    <e n="$Paste">
+      <i c="2" l="1666545471399" />
+    </e>
     <e n="$SelectAll">
       <i c="3" l="1666540190886" />
     </e>
@@ -16,7 +19,7 @@
       <i c="2" l="1666540157694" />
     </e>
     <e n="Back">
-      <i c="14" l="1666540137066" />
+      <i c="58" l="1667410740362" />
     </e>
     <e n="CodeCompletion">
       <i c="3" l="1666540184238" />
@@ -25,7 +28,7 @@
       <i c="22" l="1666540181491" />
     </e>
     <e n="EditorCopy">
-      <i c="11" l="1666540191225" />
+      <i c="15" l="1666545874148" />
     </e>
     <e n="EditorCut">
       <i c="40" l="1666120686913" />
@@ -46,7 +49,7 @@
       <i c="12" l="1666540203316" />
     </e>
     <e n="EditorPaste">
-      <i c="11" l="1666540194131" />
+      <i c="13" l="1666545875398" />
     </e>
     <e n="EditorRight">
       <i c="314" l="1666515674133" />
@@ -55,7 +58,7 @@
       <i c="1" l="1666515675321" />
     </e>
     <e n="Find">
-      <i c="3" l="1666540153661" />
+      <i c="6" l="1666545875179" />
     </e>
     <e n="GotoDeclaration">
       <i c="3" l="1666540152360" />
@@ -91,10 +94,10 @@
       <i c="5" l="1666461093400" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
-      <i c="4" l="1666540150478" />
+      <i c="8" l="1666545877711" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.PrevOccurrenceAction">
-      <i c="1" l="1666540154902" />
+      <i c="2" l="1666542191603" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.SwitchToFind">
       <i c="1" l="1666119160053" />
@@ -106,7 +109,7 @@
       <i c="1" l="1665594292169" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="25" l="1666537420520" />
+      <i c="33" l="1666545613114" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
       <i c="3" l="1665594294522" />

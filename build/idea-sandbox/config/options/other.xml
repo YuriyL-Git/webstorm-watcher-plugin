@@ -62,7 +62,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="19" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1666456622580" />
+    <property name="packagesearch.status.updated.ts" value="1667409629800" />
     <property name="project.wizard.group" value="GENERAL_MODULE" />
     <property name="registry.to.advanced.settings.migration.build" value="IC-213.7172.25" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />

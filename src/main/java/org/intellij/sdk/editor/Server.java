@@ -17,6 +17,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Server {
@@ -25,34 +26,52 @@ public class Server {
     public static void main(String[] args) {
     }
 
+    static ArrayList<Socket> sockets = new ArrayList<Socket>();
+    static ArrayList<ServerSocket> servers = new ArrayList<ServerSocket>();
+
     public static void createServer(int portNumber, Project project) {
         Runnable serverTask = new Runnable() {
             @Override
             public void run() {
-                try {
-                    ServerSocket serverSocket = new ServerSocket(portNumber);
-                    Socket connectionSocket = serverSocket.accept();
+                while (true) { //restart server every time if connection is closed
+                    try {
+                        ServerSocket serverSocket = new ServerSocket(portNumber);
+                        Socket connectionSocket = serverSocket.accept();
 
-                    InputStream inputToServer = connectionSocket.getInputStream();
-                    OutputStream outputFromServer = connectionSocket.getOutputStream();
+                        servers.add(serverSocket);
+                        sockets.add(connectionSocket);
 
-                    Scanner scanner = new Scanner(inputToServer, "UTF-8");
-                    PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
+                        // connectionSocket.setKeepAlive(true);
 
-                    serverPrintOut.println("Start");//dont delete!
+                        InputStream inputToServer = connectionSocket.getInputStream();
+                        OutputStream outputFromServer = connectionSocket.getOutputStream();
+                        Notifications.Bus.notify(new Notification("Custom Notification Group", "Connection Started! port" + portNumber, NotificationType.INFORMATION));
 
-                    while (scanner.hasNextLine()) {
-                        String line = scanner.nextLine();
-                        ApplicationManager.getApplication().invokeLater(new Runnable() {
-                            @Override
-                            public void run() {
-                                serverPrintOut.println("" + Server.getCommandResponce(line, project));
-                            }
-                        });
+
+                        Scanner scanner = new Scanner(inputToServer, "UTF-8");
+                        PrintWriter serverPrintOut = new PrintWriter(new OutputStreamWriter(outputFromServer, "UTF-8"), true);
+
+                        serverPrintOut.println("Start");//dont delete!
+
+                        while (scanner.hasNextLine()) {
+                            String line = scanner.nextLine();
+                            ApplicationManager.getApplication().invokeLater(new Runnable() {
+                                @Override
+                                public void run() {
+                                    serverPrintOut.println("" + Server.getCommandResponce(line, project));
+                                }
+                            });
+                        }
+
+                        connectionSocket.close();
+                        serverSocket.close();
+
+                        Notifications.Bus.notify(new Notification("Custom Notification Group", "Connection closed! port" + portNumber, NotificationType.INFORMATION));
+
+                    } catch (IOException e) {
+                        Notifications.Bus.notify(new Notification("Custom Notification Group", "Server Error!", NotificationType.INFORMATION));
+                        e.printStackTrace();
                     }
-                } catch (IOException e) {
-                    System.err.println("Unable to process client request");
-                    e.printStackTrace();
                 }
             }
         };
@@ -62,6 +81,23 @@ public class Server {
     }
 
     public static void connectToServer(Project project) {
+        sockets.forEach(socket -> {
+            try {
+                socket.close();
+            } catch (IOException e) {
+                Notifications.Bus.notify(new Notification("Custom Notification Group", "Server closing error", NotificationType.INFORMATION));
+            }
+        });
+        sockets.clear();
+        servers.forEach(server -> {
+            try {
+                server.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+        servers.clear();
+
         int PORT_NUMBER_SERVER1 = 9991;
         int PORT_NUMBER_SERVER2 = 9992;
         createServer(PORT_NUMBER_SERVER1, project);

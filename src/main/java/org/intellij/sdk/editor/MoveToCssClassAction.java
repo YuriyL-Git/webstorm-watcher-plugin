@@ -22,6 +22,7 @@ public class MoveToCssClassAction extends AnAction {
 
     @Override
     public void update(AnActionEvent event) {
+
         // Enable/disable depending on whether user is editing
         Editor editor = event.getData(CommonDataKeys.EDITOR);
         event.getPresentation().setEnabled(editor != null);

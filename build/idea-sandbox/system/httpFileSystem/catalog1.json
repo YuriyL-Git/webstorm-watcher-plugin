@@ -658,12 +658,6 @@
       "url": "https://json.schemastore.org/csr.json"
     },
     {
-      "name": "dbt Project",
-      "description": "Schema for dbt project configurations",
-      "fileMatch": ["dbt_project.yml"],
-      "url": "https://raw.githubusercontent.com/dbt-labs/dbt-core/main/schemas/dbt/manifest/v7.json"
-    },
-    {
       "name": "Deadpendency Config Schema",
       "description": "Schema for Deadpendency config, a dependency management GitHub app",
       "fileMatch": [
@@ -1637,7 +1631,7 @@
       "name": "Haystack Pipeline",
       "description": "Haystack Pipeline YAML file describing the nodes of the pipelines. For more info read the docs at: https://haystack.deepset.ai/components/pipelines#yaml-file-definitions",
       "fileMatch": ["*.haystack-pipeline.yml"],
-      "url": "https://raw.githubusercontent.com/deepset-ai/haystack/master/haystack/json-schemas/haystack-pipeline.schema.json"
+      "url": "https://raw.githubusercontent.com/deepset-ai/haystack-json-schema/main/json-schema/haystack-pipeline.schema.json"
     },
     {
       "name": "Hazelcast 5 Configuration",
@@ -1648,7 +1642,7 @@
         "hz-*.yaml",
         "hz-*.json"
       ],
-      "url": "https://hazelcast.com/schema/config/hazelcast-config-5.1.json"
+      "url": "https://hazelcast.com/schema/config/hazelcast-config-5.2.json"
     },
     {
       "name": "host.json",
@@ -1708,7 +1702,7 @@
       "name": "ioBroker Package manifest",
       "description": "Schema for ioBroker adapters io-package file",
       "fileMatch": ["io-package.json"],
-      "url": "https://json.schemastore.org/io-package.json"
+      "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/io-package.json"
     },
     {
       "name": "Jasmine",
@@ -1816,7 +1810,7 @@
     {
       "name": "JSONPatch",
       "description": "JSONPatch files",
-      "fileMatch": ["*.patch"],
+      "fileMatch": ["*.patch", "*.patch.json"],
       "url": "https://json.schemastore.org/json-patch.json"
     },
     {
@@ -2147,6 +2141,11 @@
         ".npmpackagejsonlintrc.json"
       ],
       "url": "https://json.schemastore.org/npmpackagejsonlintrc.json"
+    },
+    {
+      "name": "npm-badges",
+      "description": "JSON schema for the NPM package badges.",
+      "url": "https://json.schemastore.org/npm-badges.json"
     },
     {
       "name": "nuclei-template.yaml",
@@ -2603,12 +2602,14 @@
     },
     {
       "name": "Renovate",
-      "description": "Renovate config file (https://github.com/renovatebot/renovate)",
+      "description": "Renovate configuration file (https://docs.renovatebot.com/configuration-options/)",
       "fileMatch": [
         "renovate.json",
         "renovate.json5",
         "**/.github/renovate.json",
         "**/.github/renovate.json5",
+        "**/.gitlab/renovate.json",
+        "**/.gitlab/renovate.json5",
         ".renovaterc",
         ".renovaterc.json"
       ],
@@ -3680,8 +3681,13 @@
     {
       "name": "Taskfile YAML Schema",
       "description": "JSON Schema for Taskfile files.",
-      "fileMatch": ["Taskfile.yaml", "Taskfile.yml"],
-      "url": "https://json.schemastore.org/taskfile.json"
+      "fileMatch": [
+        "Taskfile.yaml",
+        "Taskfile.dist.yaml",
+        "Taskfile.yml",
+        "Taskfile.dist.yml"
+      ],
+      "url": "https://taskfile.dev/schema.json"
     },
     {
       "name": "Containerlab",
@@ -3741,7 +3747,7 @@
       "name": "skaffold.yaml",
       "description": "Schema for the skaffold.yaml configuration file for Skaffold (https://skaffold.dev/)",
       "fileMatch": ["skaffold.yaml", "skaffold.yml"],
-      "url": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta28.json",
+      "url": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v3.json",
       "versions": {
         "v1alpha1": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v1alpha1.json",
         "v1alpha2": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v1alpha2.json",
@@ -3797,7 +3803,9 @@
         "v2beta25": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta25.json",
         "v2beta26": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta26.json",
         "v2beta27": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta27.json",
-        "v2beta28": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta28.json"
+        "v2beta28": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta28.json",
+        "v2beta29": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta29.json",
+        "v3": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v3.json"
       }
     },
     {
@@ -4185,6 +4193,15 @@
       "description": "Uplift configuration file",
       "fileMatch": [".uplift.yml", ".uplift.yaml", "uplift.yml", "uplift.yaml"],
       "url": "https://upliftci.dev/static/schema.json"
+    },
+    {
+      "name": "QueryFirst config file",
+      "description": "Config options for QueryFirst, SQL wrapper generator.",
+      "fileMatch": ["qfconfig.json"],
+      "url": "https://json.schemastore.org/qfconfig.json",
+      "versions": {
+        "1.0": "https://json.schemastore.org/qfconfig.json"
+      }
     }
   ],
   "version": 1

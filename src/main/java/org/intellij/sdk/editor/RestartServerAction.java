@@ -12,8 +12,8 @@ import org.jetbrains.annotations.NotNull;
 public class RestartServerAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        Project project = ProjectManager.getInstance().getOpenProjects()[0];
-        Server.connectToServer(project);
+       // Project project = ProjectManager.getInstance().getOpenProjects()[0];
+       // Server.connectToServer(project);
     }
 
 
