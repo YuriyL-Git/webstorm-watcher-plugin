@@ -165,6 +165,9 @@ public class Server {
             case "editorText":
                 result = editor.getDocument().getText();
                 break;
+            case "selectedText":
+                result = editor.getSelectionModel().getSelectedText();
+                break;
             case "caretLine":
                 result = editor.getCaretModel().getLogicalPosition().line + "";
                 break;

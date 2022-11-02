@@ -16,14 +16,21 @@ import org.jetbrains.annotations.NotNull;
 import java.io.IOException;
 
 public class ProjectOpenCloseListener implements ProjectManagerListener {
+    static boolean isProjectOpen;
+
     @Override
   public void projectOpened(@NotNull Project project) {
         MainHandler handler = new MainHandler();
-        try {
-            handler.onProjectOpened(project);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+
+        if (!isProjectOpen) {
+            try {
+                handler.onProjectOpened(project);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            isProjectOpen = true;
         }
+
 
         MessageBus messageBus = project.getMessageBus();
         messageBus.connect().subscribe(FileEditorManagerListener.FILE_EDITOR_MANAGER, new FileEditorManagerListener() {

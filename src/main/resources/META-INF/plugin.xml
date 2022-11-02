@@ -42,6 +42,11 @@
             icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.MoveToCssClassAction">
       <keyboard-shortcut first-keystroke="alt C" keymap="$default"/>
     </action>
+    <action id="org.intellij.sdk.action.ConsoleVariableAction"
+            text="Action Basics Plugin: Pop Dialog Action" description="SDK action example"
+            icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.ConsoleVariableAction">
+      <keyboard-shortcut first-keystroke="alt V" keymap="$default"/>
+    </action>
 
     <action id="org.intellij.sdk.action.RestartServerAction"
             text="Action Basics Plugin: Pop Dialog Action" description="SDK action example"

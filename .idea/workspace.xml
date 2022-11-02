@@ -12,6 +12,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/editor_basics-2.0.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/editor_basics-2.0.0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/editor_basics/lib/editor_basics-2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/editor_basics/lib/editor_basics-2.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/editor_basics-2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/editor_basics-2.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/MainHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/ProjectOpenCloseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/ProjectOpenCloseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intellij/sdk/editor/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +153,7 @@
       <workItem from="1666109543269" duration="6131000" />
       <workItem from="1666456582908" duration="5137000" />
       <workItem from="1666511408008" duration="16681000" />
-      <workItem from="1667407371613" duration="4802000" />
+      <workItem from="1667407371613" duration="7026000" />
     </task>
     <servers />
   </component>

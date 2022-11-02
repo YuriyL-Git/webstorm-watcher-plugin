@@ -13,7 +13,6 @@ import java.net.http.HttpResponse;
 
 class MainHandler {
     public void onProjectOpened(Project project) throws IOException {
-        MainHandler handler = new MainHandler();
         Server.connectToServer(project);
     }
 

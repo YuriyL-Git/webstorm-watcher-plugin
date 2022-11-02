@@ -6,13 +6,11 @@
   <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
   <id>org.intellij.sdk.editor</id>
   <!-- Text to display as name on Preferences/Settings | Plugin page -->
-  <name>SDK: Editor Sample</name>
+  <name>Electron App Watcher</name>
   <!-- Product and plugin compatibility requirements -->
   <depends>com.intellij.modules.platform</depends>
   <!-- Text to display as description on Preferences/Settings | Plugin page -->
-  <description><![CDATA[Illustrates various basic Editor APIs. Requires at least project to be open, and a file open in the editor
-      to see the menu items this plugin adds to the editor popup menu.<br>Mouse over each of this plugin's menu items
-      to see hints in the lower left corner of the IDE.]]></description>
+  <description><![CDATA[Watcher plugin to work with electron custom app]]></description>
   <change-notes><![CDATA[<ul>
         <li><b>2.0.0</b> Convert to Gradle-based plugin</li>
         <li><b>1.0.0</b> Release 2019.1 and earlier.</li>
@@ -25,6 +23,9 @@
   <actions>
     <action id="org.intellij.sdk.action.MoveToCssClassAction" text="Action Basics Plugin: Pop Dialog Action" description="SDK action example" icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.MoveToCssClassAction">
       <keyboard-shortcut first-keystroke="alt C" keymap="$default" />
+    </action>
+    <action id="org.intellij.sdk.action.ConsoleVariableAction" text="Action Basics Plugin: Pop Dialog Action" description="SDK action example" icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.ConsoleVariableAction">
+      <keyboard-shortcut first-keystroke="alt V" keymap="$default" />
     </action>
     <action id="org.intellij.sdk.action.RestartServerAction" text="Action Basics Plugin: Pop Dialog Action" description="SDK action example" icon="SdkIcons.Sdk_default_icon" class="org.intellij.sdk.editor.RestartServerAction">
       <keyboard-shortcut first-keystroke="control alt R" keymap="$default" />
