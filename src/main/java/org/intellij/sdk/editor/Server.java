@@ -166,10 +166,16 @@ public class Server {
                 result = editor.getDocument().getText();
                 break;
             case "selectedText":
-                result = editor.getSelectionModel().getSelectedText();
+                result = editor.getSelectionModel().getSelectedText() + "";
                 break;
             case "caretLine":
                 result = editor.getCaretModel().getLogicalPosition().line + "";
+                break;
+            case "selectionStart":
+                result = editor.getSelectionModel().getSelectionStart() + "";
+                break;
+            case "selectionEnd":
+                result = editor.getSelectionModel().getSelectionEnd()  + "";
                 break;
             case "caretColumn":
                 result = editor.getCaretModel().getLogicalPosition().column + "";

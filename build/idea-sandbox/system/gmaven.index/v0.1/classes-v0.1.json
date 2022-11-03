@@ -9253,7 +9253,7 @@
     {
       "groupId": "com.android.internal.settings",
       "artifactId": "com.android.internal.settings.gradle.plugin",
-      "version": "8.0.0-alpha06",
+      "version": "8.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9323,7 +9323,7 @@
     {
       "groupId": "com.android.privacy-sandbox-sdk",
       "artifactId": "com.android.privacy-sandbox-sdk.gradle.plugin",
-      "version": "8.0.0-alpha06",
+      "version": "8.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -9337,7 +9337,7 @@
     {
       "groupId": "com.android.settings",
       "artifactId": "com.android.settings.gradle.plugin",
-      "version": "8.0.0-alpha06",
+      "version": "8.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10205,7 +10205,7 @@
     {
       "groupId": "com.android.tools",
       "artifactId": "play-sdk-proto",
-      "version": "31.0.0-alpha06",
+      "version": "31.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10310,7 +10310,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aapt2",
-      "version": "8.0.0-alpha06-8841542",
+      "version": "8.0.0-alpha07-9193536",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -10401,14 +10401,14 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings",
-      "version": "8.0.0-alpha06",
+      "version": "8.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.build",
       "artifactId": "gradle-settings-api",
-      "version": "8.0.0-alpha06",
+      "version": "8.0.0-alpha07",
       "ktxTargets": [],
       "fqcns": []
     },
